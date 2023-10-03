@@ -1,0 +1,25 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 71fb5b31-746a-4b38-94f9-e1ddea6a1917)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (global_label "T4" (shape input) (at 122.682 98.806 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 24765ec3-702d-4ae1-9a6a-7b00f79d0a61)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 118.0918 98.7266 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "T3" (shape input) (at 122.682 96.266 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b1cad25d-0034-4fc8-a66c-a082c4f3bab3)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 118.0918 96.1866 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+)
