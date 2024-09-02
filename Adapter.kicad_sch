@@ -1,303 +1,507 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 18.288 81.28) (size 28.194 22.606) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 24ca47b2-866f-4c90-ba1b-98c358d573e6)
-    (property "Sheetname" "Driver_1" (at 18.288 80.5684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Driver_1.kicad_sch" (at 18.288 104.4706 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "12"))
-      )
-    )
-  )
-
-  (sheet (at 119.126 138.303) (size 24.13 22.352) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 271bc2e5-e427-4aab-9234-55a8011d82ed)
-    (property "Sheetname" "Reset" (at 119.126 137.5914 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Reset.kicad_sch" (at 119.126 161.2396 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "18"))
-      )
-    )
-  )
-
-  (sheet (at 85.344 52.578) (size 28.194 22.606) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 3f2b9816-0353-4471-8753-8626d6dd2b30)
-    (property "Sheetname" "Power_Supply_3" (at 85.344 51.8664 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power_Supply_3.kicad_sch" (at 85.344 75.7686 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "17"))
-      )
-    )
-  )
-
-  (sheet (at 18.288 109.6264) (size 28.194 22.5552) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 48506f31-24d2-459a-84b5-2cde043f3b1b)
-    (property "Sheetname" "SupplyPower_3.3V" (at 18.288 108.9148 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "SupplyPower_3.kicad_sch" (at 18.288 132.7662 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 85.344 81.28) (size 28.194 22.606) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4f6bfb91-7e0a-4b8d-9918-082ff107cb6c)
-    (property "Sheetname" "Driver_3" (at 85.344 80.5684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Driver_3.kicad_sch" (at 85.344 104.4706 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "14"))
-      )
-    )
-  )
-
-  (sheet (at 85.217 167.767) (size 28.448 22.352) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 74290cae-cd5b-415d-802f-e021905a5212)
-    (property "Sheetname" "Fault3" (at 85.217 167.0554 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Fault3.kicad_sch" (at 85.217 190.7036 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 119.126 167.767) (size 24.13 22.352) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7562f07e-e5bb-40bf-9bac-e4fbbb2b9fe8)
-    (property "Sheetname" "Common_ERR" (at 119.126 167.0554 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Common_ERR.kicad_sch" (at 119.126 190.7036 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 51.308 81.28) (size 28.194 22.606) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7be86f5d-dd1f-4f1b-8cd0-4746349973df)
-    (property "Sheetname" "Driver_2" (at 51.308 80.5684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Driver_2.kicad_sch" (at 51.308 104.4706 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "13"))
-      )
-    )
-  )
-
-  (sheet (at 18.288 138.303) (size 28.194 22.352) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7c11a07f-525c-45a7-9ad1-361ea90615cc)
-    (property "Sheetname" "Logic_Pritection" (at 18.288 137.5914 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Logic_Pritection.kicad_sch" (at 18.288 161.2396 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 51.816 167.767) (size 28.194 22.352) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7c42ec75-0fa8-4ef0-a6a3-b3777a4f3bdf)
-    (property "Sheetname" "Fault2" (at 51.816 167.0554 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Fault2.kicad_sch" (at 51.816 190.7036 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 18.288 52.578) (size 28.194 22.606) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8bc24c89-3b12-490f-84ca-49e9e82b282d)
-    (property "Sheetname" "Power_Supply_1" (at 18.288 51.8664 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power_Supply_1.kicad_sch" (at 18.288 75.7686 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "15"))
-      )
-    )
-  )
-
-  (sheet (at 85.344 109.474) (size 28.448 22.606) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 98be4b32-51d8-4f7b-9b74-14890e40923b)
-    (property "Sheetname" "Connectors" (at 85.344 108.7624 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Connectors.kicad_sch" (at 85.344 132.6646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 51.2572 109.6264) (size 28.448 22.5552) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid bd631d25-c4d3-4dfd-857d-5758a7c83797)
-    (property "Sheetname" "NTC_Handler" (at 51.2572 108.9148 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "NTC_Handler.kicad_sch" (at 51.2572 132.7662 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 18.415 167.767) (size 28.194 22.352) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid c04386e0-b49e-4fff-b380-675af13a62cb)
-    (property "Sheetname" "Fault1" (at 18.415 167.0554 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Fault1.kicad_sch" (at 18.415 190.7036 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 51.2572 138.3284) (size 28.448 22.352) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d144a014-f04c-4a5c-ab89-4d35bea7c7d6)
-    (property "Sheetname" "Logic_Protection2" (at 51.2572 137.6168 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Logic_Protection2.kicad_sch" (at 51.2572 161.265 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 51.308 52.578) (size 28.194 22.606) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d15de62d-a72f-4a11-bc27-e846a6167c42)
-    (property "Sheetname" "Power_Supply_2" (at 51.308 51.8664 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power_Supply_2.kicad_sch" (at 51.308 75.7686 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "16"))
-      )
-    )
-  )
-
-  (sheet (at 85.471 138.3284) (size 28.448 22.352) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid db5d7e63-27d7-4aee-825c-495c36afbd19)
-    (property "Sheetname" "Logic_Protection3" (at 85.471 137.6168 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Logic_Protection3.kicad_sch" (at 85.471 161.265 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Adapter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "7"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 18.288 81.28)
+		(size 28.194 22.606)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24ca47b2-866f-4c90-ba1b-98c358d573e6")
+		(property "Sheetname" "Driver_1"
+			(at 18.288 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver_1.kicad_sch"
+			(at 18.288 104.4706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.344 52.578)
+		(size 28.194 22.606)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f2b9816-0353-4471-8753-8626d6dd2b30")
+		(property "Sheetname" "Power_Supply_3"
+			(at 85.344 51.8664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply_3.kicad_sch"
+			(at 85.344 75.7686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 18.288 109.6264)
+		(size 28.194 22.5552)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48506f31-24d2-459a-84b5-2cde043f3b1b")
+		(property "Sheetname" "SupplyPower_3.3V"
+			(at 18.288 108.9148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SupplyPower_3.kicad_sch"
+			(at 18.288 132.7662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.344 81.28)
+		(size 28.194 22.606)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f6bfb91-7e0a-4b8d-9918-082ff107cb6c")
+		(property "Sheetname" "Driver_3"
+			(at 85.344 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver_3.kicad_sch"
+			(at 85.344 104.4706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 51.308 81.28)
+		(size 28.194 22.606)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7be86f5d-dd1f-4f1b-8cd0-4746349973df")
+		(property "Sheetname" "Driver_2"
+			(at 51.308 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver_2.kicad_sch"
+			(at 51.308 104.4706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 18.288 138.303)
+		(size 28.194 22.352)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c11a07f-525c-45a7-9ad1-361ea90615cc")
+		(property "Sheetname" "Logic_Pritection"
+			(at 18.288 137.5914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic_Pritection.kicad_sch"
+			(at 18.288 161.2396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 18.288 52.578)
+		(size 28.194 22.606)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8bc24c89-3b12-490f-84ca-49e9e82b282d")
+		(property "Sheetname" "Power_Supply_1"
+			(at 18.288 51.8664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply_1.kicad_sch"
+			(at 18.288 75.7686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.344 109.474)
+		(size 28.448 22.606)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98be4b32-51d8-4f7b-9b74-14890e40923b")
+		(property "Sheetname" "Connectors"
+			(at 85.344 108.7624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 85.344 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 51.2572 109.6264)
+		(size 28.448 22.5552)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd631d25-c4d3-4dfd-857d-5758a7c83797")
+		(property "Sheetname" "NTC_Handler"
+			(at 51.2572 108.9148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NTC_Handler.kicad_sch"
+			(at 51.2572 132.7662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 18.415 167.767)
+		(size 28.194 22.352)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c04386e0-b49e-4fff-b380-675af13a62cb")
+		(property "Sheetname" "Fault1"
+			(at 18.415 167.0554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Fault1.kicad_sch"
+			(at 18.415 190.7036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 51.2572 138.3284)
+		(size 28.448 22.352)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d144a014-f04c-4a5c-ab89-4d35bea7c7d6")
+		(property "Sheetname" "Logic_Protection2"
+			(at 51.2572 137.6168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic_Protection2.kicad_sch"
+			(at 51.2572 161.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 51.308 52.578)
+		(size 28.194 22.606)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d15de62d-a72f-4a11-bc27-e846a6167c42")
+		(property "Sheetname" "Power_Supply_2"
+			(at 51.308 51.8664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply_2.kicad_sch"
+			(at 51.308 75.7686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.471 138.3284)
+		(size 28.448 22.352)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db5d7e63-27d7-4aee-825c-495c36afbd19")
+		(property "Sheetname" "Logic_Protection3"
+			(at 85.471 137.6168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic_Protection3.kicad_sch"
+			(at 85.471 161.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

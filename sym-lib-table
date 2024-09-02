@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Converter_DCDC_My")(type "KiCad")(uri "${KIPRJMOD}/Converter_DCDC_My.kicad_sym")(options "")(descr ""))
+  (lib (name "Interface_My")(type "KiCad")(uri "${KIPRJMOD}/Interface_My.kicad_sym")(options "")(descr ""))
+  (lib (name "Logic_My")(type "KiCad")(uri "${KIPRJMOD}/Logic_My.kicad_sym")(options "")(descr ""))
+)

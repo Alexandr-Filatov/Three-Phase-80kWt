@@ -608,7 +608,7 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      ""
+      "Корневой лист"
     ],
     [
       "c04386e0-b49e-4fff-b380-675af13a62cb",
@@ -619,24 +619,12 @@
       "Logic_Pritection"
     ],
     [
-      "7c42ec75-0fa8-4ef0-a6a3-b3777a4f3bdf",
-      "Fault2"
-    ],
-    [
-      "74290cae-cd5b-415d-802f-e021905a5212",
-      "Fault3"
-    ],
-    [
       "d144a014-f04c-4a5c-ab89-4d35bea7c7d6",
       "Logic_Protection2"
     ],
     [
       "db5d7e63-27d7-4aee-825c-495c36afbd19",
       "Logic_Protection3"
-    ],
-    [
-      "7562f07e-e5bb-40bf-9bac-e4fbbb2b9fe8",
-      "Common_ERR"
     ],
     [
       "bd631d25-c4d3-4dfd-857d-5758a7c83797",
@@ -673,10 +661,6 @@
     [
       "3f2b9816-0353-4471-8753-8626d6dd2b30",
       "Power_Supply_3"
-    ],
-    [
-      "271bc2e5-e427-4aab-9234-55a8011d82ed",
-      "Reset"
     ]
   ],
   "text_variables": {}
