@@ -158,6 +158,44 @@
 		)
 	)
 	(sheet
+		(at 50.8 167.64)
+		(size 28.194 22.352)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67ea8833-ced1-4081-a899-15fa07aad06e")
+		(property "Sheetname" "Current_Sensors"
+			(at 50.8 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sensors.kicad_sch"
+			(at 50.8 190.5766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 51.308 81.28)
 		(size 28.194 22.606)
 		(fields_autoplaced yes)

@@ -799,6 +799,126 @@
 				)
 			)
 		)
+		(symbol "power:+15V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+15V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+15V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+15V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+15V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+15V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -1342,7 +1462,7 @@
 	)
 	(rectangle
 		(start 88.9 116.84)
-		(end 130.81 151.13)
+		(end 146.05 151.13)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1613,10 +1733,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ec5cd51-84b9-4ae0-a0c0-d6a8366ca4a0")
+			(uuid "4a491661-809e-460b-b020-07bea10f124d")
 		)
 		(pin "2"
-			(uuid "0f2dc1d7-4294-43f3-8415-185ef4c05ce5")
+			(uuid "9920b558-a8e5-4f49-82ce-dd199a420911")
 		)
 		(instances
 			(project "Adapter"
@@ -1682,7 +1802,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1c90039-a8b5-4187-bb29-4dca90016832")
+			(uuid "cc40f3f0-9020-4256-b558-85a077f1c135")
 		)
 		(instances
 			(project "Adapter"
@@ -1748,7 +1868,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e01f3da-154e-4a33-ad6b-ad01256a04d6")
+			(uuid "b25cea38-a92b-43d4-bdfa-ae924da040a0")
 		)
 		(instances
 			(project "Adapter"
@@ -1813,7 +1933,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "24668236-2748-4043-8d3d-cfd7dab8f4c3")
+			(uuid "c960191a-cda1-42fd-9fa1-a9ac73505330")
 		)
 		(instances
 			(project "Adapter"
@@ -1879,10 +1999,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9908aae5-b850-4580-a55d-18ebb9a15e14")
+			(uuid "34bdcf66-915e-45a0-9e45-03cca3bbf07b")
 		)
 		(pin "2"
-			(uuid "1ed1613c-486b-4847-89ef-3afcc85bde22")
+			(uuid "143fbccb-b0fd-4f62-b02e-65aea33aab2e")
 		)
 		(instances
 			(project "Adapter"
@@ -1948,7 +2068,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb84d605-c160-4997-b5cb-615be0c47182")
+			(uuid "5674c60f-1412-4e85-91b1-1c4b9b91b490")
 		)
 		(instances
 			(project "Adapter"
@@ -2014,7 +2134,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "27b74298-6c00-48eb-97c0-2ff091919988")
+			(uuid "296aef4d-9895-41ec-bcac-1f6ef9a70494")
 		)
 		(instances
 			(project "Adapter"
@@ -2079,7 +2199,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a435596-11c7-4cc8-91fe-d77287b4a8da")
+			(uuid "465b633c-6d02-462c-ba5a-b9888d289a92")
 		)
 		(instances
 			(project "Adapter"
@@ -2143,10 +2263,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0cfe6a7-8972-45c4-be4b-6ac3d22836fb")
+			(uuid "d782be55-515f-4713-a99e-0abdd7e85909")
 		)
 		(pin "2"
-			(uuid "a347b71d-3614-4c2d-bc7b-f782857f936b")
+			(uuid "1f36352e-fb0f-4780-afad-fd5c66084fef")
 		)
 		(instances
 			(project "Adapter"
@@ -2210,10 +2330,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae725e8e-5f24-4624-bbbe-306831dc4269")
+			(uuid "0709b374-bae4-4ee9-8d88-013a18d5e6a8")
 		)
 		(pin "2"
-			(uuid "ed2152a2-a5dc-43db-9ffd-b40b88ea980d")
+			(uuid "93422dcc-9be0-4d88-944b-55d6d0c45d4e")
 		)
 		(instances
 			(project "Adapter"
@@ -2279,12 +2399,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0114169-a20b-4651-8b2d-2f8d5451fefd")
+			(uuid "53b746d0-e7f4-4b04-a0df-bbdcdfe494bd")
 		)
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c04386e0-b49e-4fff-b380-675af13a62cb"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 133.35 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7644a7e8-b2c2-4b2e-aaaf-10804ac94c10")
+		(property "Reference" "D19"
+			(at 135.128 135.9916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PWR"
+			(at 135.128 138.303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 133.35 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecbac63d-63f0-4a1c-88cf-75604a35e495")
+		)
+		(pin "2"
+			(uuid "db3d09cd-ea4d-4c68-b986-ffa7582fc4c1")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c04386e0-b49e-4fff-b380-675af13a62cb"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -2345,10 +2534,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "89fc075d-1111-4457-a9fb-79b3843cd65b")
+			(uuid "e52fa02d-8f44-4a99-9a48-d375a85e49c6")
 		)
 		(pin "2"
-			(uuid "96abf806-d4dc-4e6e-9139-92edc573d612")
+			(uuid "975781fb-59e6-494b-a79a-208fe10e89d8")
 		)
 		(instances
 			(project "Adapter"
@@ -2414,10 +2603,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ec6c5dc-5b6c-43e7-85af-9c37539aeec0")
+			(uuid "663f13a5-ec63-412b-93ea-a741b4ae4bd1")
 		)
 		(pin "2"
-			(uuid "139bba97-ff2d-4cff-8b82-61ae31850a31")
+			(uuid "14d1a11e-dd11-4c3a-9d6d-ef5e71753d5e")
 		)
 		(instances
 			(project "Adapter"
@@ -2482,27 +2671,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "deaa38f3-e3e6-4d9a-a236-79cf617cf74b")
+			(uuid "b4908112-a3c7-4110-873e-e10a467047e6")
 		)
 		(pin "3"
-			(uuid "87d61c52-d155-4c3f-b73c-5b74806fd53a")
+			(uuid "de7fd373-827f-4891-8d74-79dc7d459a94")
 		)
 		(pin "1"
-			(uuid "45baac70-55ff-4bd0-922c-5ad427950dab")
+			(uuid "c83ddee2-e936-494f-8c9a-ff6080d54044")
 		)
 		(pin "2"
-			(uuid "e54a03e1-38ee-4bac-91ff-ccd63879c770")
+			(uuid "fecf2c38-4cc3-4b4b-b319-3b10ef72d997")
 		)
 		(pin "5"
-			(uuid "b8299080-93ae-4b40-8727-3eb8a83aa0ae")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c04386e0-b49e-4fff-b380-675af13a62cb"
-					(reference "D1")
-					(unit 1)
-				)
-			)
+			(uuid "d5dc3e1a-4ca1-478a-83fd-060d677cc16b")
 		)
 	)
 	(symbol
@@ -2559,7 +2740,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9dcac7f5-039f-4517-b1ce-6565ad9aea0a")
+			(uuid "a3e88e84-4305-423e-a63b-851f4a6c98ec")
 		)
 		(instances
 			(project "Adapter"
@@ -2625,7 +2806,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b31df22-03d2-4e0f-942e-556b25ea33ed")
+			(uuid "a8206a11-a8cc-439e-ae27-0a1cb2092c59")
 		)
 		(instances
 			(project "Adapter"
@@ -2691,7 +2872,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "738e66ae-86c0-4a73-b022-a09dac3b56aa")
+			(uuid "ff1e4249-84de-4dbb-9dfe-ca22c2542be6")
 		)
 		(instances
 			(project "Adapter"
@@ -2757,7 +2938,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c065963-4e5d-4a8b-a297-192b2ae0a870")
+			(uuid "3dbcc646-a25b-4f4c-a5fd-aee86e8c9cf3")
 		)
 		(instances
 			(project "Adapter"
@@ -2821,15 +3002,146 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2aa127d-1a65-43d8-adfe-d99bdee727e1")
+			(uuid "1f65f2c5-5c1e-47cd-8d76-559c58a2e989")
 		)
 		(pin "2"
-			(uuid "d6697049-eb4e-4220-8ef2-d1f31647093a")
+			(uuid "85660c5f-ac61-431c-a6b5-957e27017840")
 		)
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c04386e0-b49e-4fff-b380-675af13a62cb"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c18890b3-e74d-4152-ac7c-e548e4896b33")
+		(property "Reference" "#PWR059"
+			(at 133.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 131.318 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bd43a18-9e2d-4f2f-88af-2b9e673f3cab")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c04386e0-b49e-4fff-b380-675af13a62cb"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 133.35 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7eb5842-7dfc-4106-9724-64292215633d")
+		(property "Reference" "#PWR060"
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24099fab-94af-4bc2-95b7-d3f4739d4822")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c04386e0-b49e-4fff-b380-675af13a62cb"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2890,10 +3202,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "24ffc515-d59e-4e7c-acd7-7349d49cf84d")
+			(uuid "4096c6dc-8f0e-48dc-9780-56ce3817989f")
 		)
 		(pin "2"
-			(uuid "7b95ff63-8bd5-4143-abee-b633d56a7079")
+			(uuid "c5a1821f-698b-486e-a5f6-38c027a5c79a")
 		)
 		(instances
 			(project "Adapter"
@@ -2958,7 +3270,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4687ba10-c7bd-4789-95d7-bcdcd7068e30")
+			(uuid "8465b04d-53d4-4cab-9df5-9a6f81f7fc85")
 		)
 		(instances
 			(project "Adapter"
@@ -3023,12 +3335,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "d533a348-28ec-4ba8-8fe3-b51154ec6c46")
+			(uuid "cedf7a35-0715-459e-b486-3a5b3c5569c9")
 		)
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c04386e0-b49e-4fff-b380-675af13a62cb"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dded17ae-3e17-46ca-8bb7-de919ca379d3")
+		(property "Reference" "R55"
+			(at 136.271 133.223 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 136.271 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 133.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee6aaf75-546d-4ca5-b323-a29344a35495")
+		)
+		(pin "2"
+			(uuid "0997c58f-f29d-4556-b0fd-1262fb19f1b2")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c04386e0-b49e-4fff-b380-675af13a62cb"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -3088,7 +3467,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6288a329-e665-4e2f-8278-482c9e52eaf4")
+			(uuid "dc6dfb44-37f8-4704-ba85-c79039556878")
 		)
 		(instances
 			(project "Adapter"
@@ -3154,10 +3533,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff53fa16-68ef-45bf-b3c2-86c7ed85da35")
+			(uuid "f03eed7a-1771-4cd2-89db-156767d0097b")
 		)
 		(pin "2"
-			(uuid "01412f5e-671a-4132-a688-4c74cd21ca0e")
+			(uuid "92274960-341c-4b6a-bcaa-a95c73e25850")
 		)
 		(instances
 			(project "Adapter"
@@ -3223,10 +3602,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "59067856-ae00-4a69-95a6-4c8ae42d641d")
+			(uuid "9d648f78-139e-48ba-ae7c-91fb4ab7ab45")
 		)
 		(pin "2"
-			(uuid "de3662ea-6b26-411a-b0a8-c8b44043d91d")
+			(uuid "b9f0074a-5767-4045-b76c-734843b72cba")
 		)
 		(instances
 			(project "Adapter"
@@ -3290,28 +3669,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "e4ef7d0d-ba47-4296-abe4-a7e6b2aba606")
+			(uuid "223e4662-e81d-4e77-9c91-ab1319006e19")
 		)
 		(pin "4"
-			(uuid "36cbbc7f-c9a5-405d-b2af-fbd870a62784")
+			(uuid "6ce0f844-35d1-4bcb-bafd-ee73c9f839a9")
 		)
 		(pin "8"
-			(uuid "97c76170-8847-4f2a-b313-7deb66623797")
+			(uuid "805a6649-b129-4344-b861-53ac7bf7d72c")
 		)
 		(pin "6"
-			(uuid "d5333d7b-4b95-49da-b17a-3779bb246614")
+			(uuid "6d5addb9-508b-4cb5-a18d-56cffe55550e")
 		)
 		(pin "5"
-			(uuid "2e21f317-2033-4178-9596-c84b256beec9")
+			(uuid "1a2b965f-73a4-4bf7-bb63-a48bd0633d1f")
 		)
 		(pin "2"
-			(uuid "5cff31ab-0400-4b88-9616-0b1bfd6be7be")
+			(uuid "d72efbae-c122-4a91-8368-47e0d103f8c5")
 		)
 		(pin "7"
-			(uuid "063182e2-7107-4f90-92de-fa702a693fcd")
+			(uuid "98b4c965-d322-4617-9397-0198a579bcea")
 		)
 		(pin "1"
-			(uuid "3bdd09fc-066e-40b2-a5db-a6abe331ffe9")
+			(uuid "04731da5-13c6-4ff4-8aad-8053921fdb53")
 		)
 		(instances
 			(project "Adapter"
@@ -3377,10 +3756,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "aec51b1f-8bde-4741-9f74-1f9c2d2471ae")
+			(uuid "aeb7e24c-4783-4a2a-b4d8-7ad391444235")
 		)
 		(pin "2"
-			(uuid "ca3458b2-857f-4661-b63e-38c869120fee")
+			(uuid "aa049794-35f6-4959-8a48-6e084be8e684")
 		)
 		(instances
 			(project "Adapter"
@@ -3445,7 +3824,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "93d91100-d694-46c7-9b3b-ce9e133fb9ad")
+			(uuid "8f838468-628b-442c-96af-2720551fbcfd")
 		)
 		(instances
 			(project "Adapter"
