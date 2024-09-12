@@ -2685,6 +2685,14 @@
 		(pin "5"
 			(uuid "d5dc3e1a-4ca1-478a-83fd-060d677cc16b")
 		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c04386e0-b49e-4fff-b380-675af13a62cb"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")

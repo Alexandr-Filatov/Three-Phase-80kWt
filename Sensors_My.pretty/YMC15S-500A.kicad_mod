@@ -155,4 +155,15 @@
 		(remove_unused_layers no)
 		(uuid "78f2618e-a95e-409f-8631-33c4f018d570")
 	)
+	(model "${KIPRJMOD}/3D models/Current sensor low.STEP"
+		(offset
+			(xyz 661.15 253.65 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
 )

@@ -996,7 +996,7 @@
 		)
 		(uuid "7dcce9e0-017e-4c88-9525-f51882377551")
 	)
-	(global_label "Current_A_out"
+	(global_label "Current_B_out"
 		(shape output)
 		(at 162.56 109.22 0)
 		(fields_autoplaced yes)
@@ -1008,7 +1008,7 @@
 		)
 		(uuid "27f63fdd-a35f-4e3b-b85b-68e4368472a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.1447 109.22 0)
+			(at 177.0181 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,7 +1040,7 @@
 			)
 		)
 	)
-	(global_label "Current_A_out"
+	(global_label "Current_C_out"
 		(shape output)
 		(at 217.17 109.22 0)
 		(fields_autoplaced yes)
@@ -1052,7 +1052,7 @@
 		)
 		(uuid "fad6f1dd-789a-47dd-ab6e-d45c357f340f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.7547 109.22 0)
+			(at 231.5003 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
