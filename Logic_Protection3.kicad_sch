@@ -477,11 +477,11 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -494,7 +494,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -520,7 +520,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -529,7 +529,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -538,7 +538,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -576,11 +576,11 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1343,7 +1343,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+5V")
 		(at 140.97 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1352,7 +1352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1185b9eb-d79e-4d0e-bacc-e8b97e86c903")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR41"
 			(at 140.97 116.84 0)
 			(effects
 				(font
@@ -1361,8 +1361,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 140.97 107.696 0)
+		(property "Value" "+5V"
+			(at 140.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 140.97 113.03 0)
 			(effects
 				(font
@@ -1402,7 +1402,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/db5d7e63-27d7-4aee-825c-495c36afbd19"
-					(reference "#PWR041")
+					(reference "#PWR41")
 					(unit 1)
 				)
 			)
@@ -1544,7 +1544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+5V")
 		(at 151.13 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1552,7 +1552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ab8ecaa-a3f2-4e5c-9644-92afc2131d08")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR46"
 			(at 151.13 135.89 0)
 			(effects
 				(font
@@ -1561,8 +1561,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 151.13 128.27 0)
+		(property "Value" "+5V"
+			(at 151.13 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +1587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 151.13 132.08 0)
 			(effects
 				(font
@@ -1602,7 +1602,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/db5d7e63-27d7-4aee-825c-495c36afbd19"
-					(reference "#PWR046")
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
@@ -1873,7 +1873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+5V")
 		(at 151.13 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1881,7 +1881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97c16e73-9103-406b-b1a7-76f2522594d6")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR36"
 			(at 151.13 67.31 0)
 			(effects
 				(font
@@ -1890,8 +1890,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 151.13 59.69 0)
+		(property "Value" "+5V"
+			(at 151.13 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +1916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 151.13 63.5 0)
 			(effects
 				(font
@@ -1931,7 +1931,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/db5d7e63-27d7-4aee-825c-495c36afbd19"
-					(reference "#PWR036")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -2076,7 +2076,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+5V")
 		(at 140.97 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2085,7 +2085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7d955ac-67da-4642-8fa2-b86d382009bf")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR38"
 			(at 140.97 85.09 0)
 			(effects
 				(font
@@ -2094,8 +2094,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 140.97 75.946 0)
+		(property "Value" "+5V"
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 140.97 81.28 0)
 			(effects
 				(font
@@ -2135,7 +2135,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/db5d7e63-27d7-4aee-825c-495c36afbd19"
-					(reference "#PWR038")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)

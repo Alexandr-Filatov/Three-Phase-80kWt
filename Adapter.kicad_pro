@@ -623,20 +623,12 @@
       "Current_Sensors"
     ],
     [
-      "58345529-7f56-4564-b4a1-0045dc902a9f",
-      "NTC_Reset_A"
-    ],
-    [
       "d144a014-f04c-4a5c-ab89-4d35bea7c7d6",
       "Logic_Protection2"
     ],
     [
       "db5d7e63-27d7-4aee-825c-495c36afbd19",
       "Logic_Protection3"
-    ],
-    [
-      "83a29e8e-3522-4bfb-8d85-061a14678ae9",
-      "NTC_Reset_B"
     ],
     [
       "bd631d25-c4d3-4dfd-857d-5758a7c83797",
@@ -673,10 +665,6 @@
     [
       "3f2b9816-0353-4471-8753-8626d6dd2b30",
       "Power_Supply_3"
-    ],
-    [
-      "7f3c60e8-60b4-472a-9873-5fab779b18b2",
-      "NTC_Reset_C"
     ]
   ],
   "text_variables": {}

@@ -158,44 +158,6 @@
 		)
 	)
 	(sheet
-		(at 117.475 109.22)
-		(size 28.448 22.5552)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "58345529-7f56-4564-b4a1-0045dc902a9f")
-		(property "Sheetname" "NTC_Reset_A"
-			(at 117.475 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "NTC_Reset_A.kicad_sch"
-			(at 117.475 132.3598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Adapter"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 50.8 167.64)
 		(size 28.194 22.352)
 		(fields_autoplaced yes)
@@ -305,82 +267,6 @@
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 177.165 109.22)
-		(size 28.448 22.5552)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7f3c60e8-60b4-472a-9873-5fab779b18b2")
-		(property "Sheetname" "NTC_Reset_C"
-			(at 177.165 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "NTC_Reset_C.kicad_sch"
-			(at 177.165 132.3598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Adapter"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "18")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 147.32 109.22)
-		(size 28.448 22.5552)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "83a29e8e-3522-4bfb-8d85-061a14678ae9")
-		(property "Sheetname" "NTC_Reset_B"
-			(at 147.32 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "NTC_Reset_B.kicad_sch"
-			(at 147.32 132.3598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Adapter"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "8")
 				)
 			)
 		)

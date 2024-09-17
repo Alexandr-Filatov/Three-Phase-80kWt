@@ -450,11 +450,11 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -467,7 +467,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -493,7 +493,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -511,7 +511,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -549,11 +549,11 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1023,7 +1023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+5V")
 		(at 121.92 95.885 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1031,7 +1031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1070721b-7045-4866-b90d-be6dc0de70e3")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR82"
 			(at 121.92 99.695 0)
 			(effects
 				(font
@@ -1040,8 +1040,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 121.92 91.44 0)
+		(property "Value" "+5V"
+			(at 121.92 92.329 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 121.92 95.885 0)
 			(effects
 				(font
@@ -1081,7 +1081,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83a29e8e-3522-4bfb-8d85-061a14678ae9"
-					(reference "#PWR082")
+					(reference "#PWR82")
 					(unit 1)
 				)
 			)
@@ -1294,7 +1294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+5V")
 		(at 116.205 112.395 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1302,7 +1302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f2d14d1-22e3-4ad7-9b69-693df2f4e72c")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR84"
 			(at 116.205 108.585 0)
 			(effects
 				(font
@@ -1311,8 +1311,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 116.205 116.84 0)
+		(property "Value" "+5V"
+			(at 116.205 115.951 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 116.205 112.395 0)
 			(effects
 				(font
@@ -1352,7 +1352,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83a29e8e-3522-4bfb-8d85-061a14678ae9"
-					(reference "#PWR084")
+					(reference "#PWR84")
 					(unit 1)
 				)
 			)
@@ -1436,7 +1436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+5V")
 		(at 155.575 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1444,7 +1444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8142af6d-faba-4aae-8d61-847589716dfa")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR79"
 			(at 155.575 99.06 0)
 			(effects
 				(font
@@ -1453,8 +1453,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 155.575 92.075 0)
+		(property "Value" "+5V"
+			(at 155.575 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 155.575 95.25 0)
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83a29e8e-3522-4bfb-8d85-061a14678ae9"
-					(reference "#PWR079")
+					(reference "#PWR79")
 					(unit 1)
 				)
 			)
@@ -1975,7 +1975,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+5V")
 		(at 139.065 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1983,7 +1983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6cbef54-50f1-4cb7-a707-f7e43276e0a8")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR72"
 			(at 139.065 81.915 0)
 			(effects
 				(font
@@ -1992,8 +1992,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 139.065 74.93 0)
+		(property "Value" "+5V"
+			(at 139.065 74.549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +2018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 139.065 78.105 0)
 			(effects
 				(font
@@ -2033,7 +2033,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83a29e8e-3522-4bfb-8d85-061a14678ae9"
-					(reference "#PWR072")
+					(reference "#PWR72")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2172,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+5V")
 		(at 139.065 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2180,7 +2180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe7d0683-ad26-49d2-9744-3080e7d52349")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR76"
 			(at 139.065 99.06 0)
 			(effects
 				(font
@@ -2189,8 +2189,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 139.065 92.075 0)
+		(property "Value" "+5V"
+			(at 139.065 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 139.065 95.25 0)
 			(effects
 				(font
@@ -2230,7 +2230,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/83a29e8e-3522-4bfb-8d85-061a14678ae9"
-					(reference "#PWR076")
+					(reference "#PWR76")
 					(unit 1)
 				)
 			)
