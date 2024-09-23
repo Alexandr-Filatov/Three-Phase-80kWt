@@ -4,4 +4,6 @@
   (lib (name "Interface_My")(type "KiCad")(uri "${KIPRJMOD}/Interface_My.kicad_sym")(options "")(descr ""))
   (lib (name "Logic_My")(type "KiCad")(uri "${KIPRJMOD}/Logic_My.kicad_sym")(options "")(descr ""))
   (lib (name "Sensors_My")(type "KiCad")(uri "${KIPRJMOD}/Sensors_My.kicad_sym")(options "")(descr ""))
+  (lib (name "power_my")(type "KiCad")(uri "${KIPRJMOD}/power_my.kicad_sym")(options "")(descr ""))
+  (lib (name "DCDC_My")(type "KiCad")(uri "${KIPRJMOD}/DCDC_My.kicad_sym")(options "")(descr ""))
 )

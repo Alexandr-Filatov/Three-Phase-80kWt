@@ -93,7 +93,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "48506f31-24d2-459a-84b5-2cde043f3b1b")
-		(property "Sheetname" "SupplyPower_3.3V"
+		(property "Sheetname" "SupplyPower_5V"
 			(at 18.288 108.9148 0)
 			(effects
 				(font
@@ -102,7 +102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "SupplyPower_3.kicad_sch"
+		(property "Sheetfile" "SupplyPower_5V.kicad_sch"
 			(at 18.288 132.7662 0)
 			(effects
 				(font

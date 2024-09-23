@@ -2466,7 +2466,7 @@
 			)
 		)
 	)
-	(global_label "PWM_H1"
+	(global_label "~{RST}"
 		(shape input)
 		(at 48.26 52.07 180)
 		(fields_autoplaced yes)
@@ -2478,7 +2478,7 @@
 		)
 		(uuid "170f8310-a440-4bc8-8983-d3aeb81da1dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1664 51.9906 0)
+			(at 42.445 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2752,7 @@
 			)
 		)
 	)
-	(global_label "RDY_H1"
+	(global_label "RDY"
 		(shape input)
 		(at 80.01 57.15 180)
 		(fields_autoplaced yes)
@@ -2764,7 +2764,7 @@
 		)
 		(uuid "790aee39-3144-4981-9f53-8e85c184f0b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.4607 57.0706 0)
+			(at 74.0684 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,28 +2928,6 @@
 			)
 		)
 	)
-	(global_label "PWM_L1"
-		(shape input)
-		(at 58.42 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b33f6a0c-90c1-4f67-bda0-6125f40515c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.6288 133.2706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "G1"
 		(shape output)
 		(at 119.38 52.07 0)
@@ -2972,7 +2950,7 @@
 			)
 		)
 	)
-	(global_label "FLT_H1"
+	(global_label "FLT"
 		(shape input)
 		(at 80.01 54.61 180)
 		(fields_autoplaced yes)
@@ -2984,7 +2962,7 @@
 		)
 		(uuid "d8345f25-4318-4422-a789-ca6e806aefba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.005 54.5306 0)
+			(at 74.4506 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +2972,7 @@
 			)
 		)
 	)
-	(global_label "FLT_L1"
+	(global_label "FLT"
 		(shape input)
 		(at 80.01 135.89 180)
 		(fields_autoplaced yes)
@@ -3006,7 +2984,29 @@
 		)
 		(uuid "e127aca6-2244-4ab0-a5ba-d39a64f63be0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3074 135.8106 0)
+			(at 74.4506 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{RST}"
+		(shape input)
+		(at 58.42 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e18a2d66-767c-4cb0-9b34-2e47ad9f6c01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.605 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3038,7 @@
 			)
 		)
 	)
-	(global_label "RDY_L1"
+	(global_label "RDY"
 		(shape input)
 		(at 80.01 138.43 180)
 		(fields_autoplaced yes)
@@ -3050,7 +3050,7 @@
 		)
 		(uuid "f2c77fb5-dd92-4492-a850-0eb16c342b0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.7631 138.3506 0)
+			(at 74.0684 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0955868c-7286-42cd-9780-6b9bd2b9411f")
-		(property "Reference" "#PWR168"
+		(property "Reference" "#PWR0168"
 			(at 83.82 49.53 0)
 			(effects
 				(font
@@ -3163,7 +3163,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/24ca47b2-866f-4c90-ba1b-98c358d573e6"
-					(reference "#PWR168")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -4115,7 +4115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4850f061-cdd2-4e23-8817-331b0ccd37b9")
-		(property "Reference" "#PWR162"
+		(property "Reference" "#PWR0162"
 			(at 83.82 130.81 0)
 			(effects
 				(font
@@ -4165,7 +4165,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/24ca47b2-866f-4c90-ba1b-98c358d573e6"
-					(reference "#PWR162")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -4721,7 +4721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fc47cd7-f0d7-4811-bc97-8f143b6c2f49")
-		(property "Reference" "#PWR167"
+		(property "Reference" "#PWR0167"
 			(at 44.196 58.42 0)
 			(effects
 				(font
@@ -4771,7 +4771,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/24ca47b2-866f-4c90-ba1b-98c358d573e6"
-					(reference "#PWR167")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -4920,7 +4920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c76f619-cab1-4740-89b8-c8332fc2ac82")
-		(property "Reference" "#PWR161"
+		(property "Reference" "#PWR0161"
 			(at 54.102 139.7 0)
 			(effects
 				(font
@@ -4970,7 +4970,7 @@
 		(instances
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/24ca47b2-866f-4c90-ba1b-98c358d573e6"
-					(reference "#PWR161")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)

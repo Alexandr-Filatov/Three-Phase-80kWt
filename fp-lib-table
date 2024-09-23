@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Mornsun")(type "KiCad")(uri "${KIPRJMOD}/Mornsun.pretty")(options "")(descr ""))
   (lib (name "Sensors_My")(type "KiCad")(uri "${KIPRJMOD}/Sensors_My.pretty")(options "")(descr ""))
+  (lib (name "power_my")(type "KiCad")(uri "${KIPRJMOD}/power_my.pretty")(options "")(descr ""))
+  (lib (name "DCDC_My")(type "KiCad")(uri "${KIPRJMOD}/DCDC_My.pretty")(options "")(descr ""))
 )
