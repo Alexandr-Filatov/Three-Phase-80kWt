@@ -782,6 +782,435 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x06_Top_Bottom"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x06_Top_Bottom"
+				(at 1.27 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x06_Top_Bottom_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_My:2-338069-0"
 			(pin_names
 				(offset 0.254) hide)
@@ -2195,9 +2624,31 @@
 			)
 		)
 	)
+	(global_label "Temp_A_N"
+		(shape output)
+		(at 158.75 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00ed884b-2ef0-4d8f-a003-4559d9a28417")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.988 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM2_H_N"
 		(shape output)
-		(at 251.714 44.196 180)
+		(at 242.57 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2207,7 +2658,7 @@
 		)
 		(uuid "01ab4b9f-0fb6-4d61-bbe3-1f0e63e3a44e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3223 44.1166 0)
+			(at 230.1783 54.5306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2670,7 @@
 	)
 	(global_label "PWM1_L_N"
 		(shape output)
-		(at 251.714 54.356 180)
+		(at 170.18 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2229,7 +2680,7 @@
 		)
 		(uuid "04b4526d-6aac-4edd-b10b-1681a751f2e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.6247 54.4354 0)
+			(at 158.0907 44.5294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2692,7 @@
 	)
 	(global_label "ERR_P"
 		(shape input)
-		(at 251.714 72.136 180)
+		(at 170.18 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2251,29 +2702,7 @@
 		)
 		(uuid "0726549a-645e-45a8-8ff2-81001486917d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.3742 72.2154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Temp_P"
-		(shape input)
-		(at 251.714 34.036 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e10b9b1-bc5b-4e91-864a-067c7f7774d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.1647 33.9566 0)
+			(at 161.8402 54.6894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,31 +2734,9 @@
 			)
 		)
 	)
-	(global_label "Temp_N"
-		(shape input)
-		(at 251.714 36.576 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1477ac7c-f1ff-4b2e-a99c-fee0d6d4cb31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.1042 36.4966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM3_L_N"
 		(shape output)
-		(at 251.714 64.516 180)
+		(at 210.82 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2339,7 +2746,7 @@
 		)
 		(uuid "1823dc3c-d122-40e4-bb2e-4a2b1015f4c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.6247 64.4366 0)
+			(at 198.7307 74.8506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2890,7 @@
 	)
 	(global_label "PWM2_L_P"
 		(shape output)
-		(at 251.714 61.976 180)
+		(at 242.57 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2493,12 +2900,34 @@
 		)
 		(uuid "32b58202-817b-416c-a392-8f65f28d004f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.6852 61.8966 0)
+			(at 230.5412 62.1506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Current_A_out"
+		(shape output)
+		(at 154.94 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3937b565-9ab5-4950-b6f8-d1c648f5e436")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.5247 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2543,6 +2972,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Current_C_out"
+		(shape output)
+		(at 195.58 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3acc3198-1ed2-4f47-8ff1-5f89b4fe9b66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.9103 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2637,7 +3088,7 @@
 	)
 	(global_label "PWM1_L_P"
 		(shape output)
-		(at 251.714 56.896 180)
+		(at 170.18 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2647,12 +3098,34 @@
 		)
 		(uuid "689caca6-1edd-49cc-9004-2de1a03ad90a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.6852 56.9754 0)
+			(at 158.1512 47.0694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Temp_C_P"
+		(shape output)
+		(at 199.39 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b66cb58-58ff-4f26-ba8b-5723c87b37f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7489 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2701,9 +3174,31 @@
 			)
 		)
 	)
+	(global_label "Temp_A_P"
+		(shape output)
+		(at 158.75 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d83e977-aec2-4f60-9946-4a05fd39cf0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.9275 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM1_H_P"
 		(shape output)
-		(at 251.714 51.816 180)
+		(at 170.18 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2713,7 +3208,7 @@
 		)
 		(uuid "992e90eb-7fb0-4477-97b4-d6f2544009dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3828 51.7366 0)
+			(at 157.8488 41.8306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +3242,7 @@
 	)
 	(global_label "PWM3_H_N"
 		(shape output)
-		(at 251.714 39.116 180)
+		(at 210.82 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2757,7 +3252,7 @@
 		)
 		(uuid "9e90f3aa-12e7-4acb-be87-731c77b01572")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3223 39.0366 0)
+			(at 198.4283 49.4506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +3286,7 @@
 	)
 	(global_label "PWM3_H_P"
 		(shape output)
-		(at 251.714 41.656 180)
+		(at 210.82 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2801,7 +3296,7 @@
 		)
 		(uuid "ba89ba08-b8ee-4a91-b48e-20e5ed759d1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3828 41.5766 0)
+			(at 198.4888 51.9906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +3330,7 @@
 	)
 	(global_label "PWM3_L_P"
 		(shape output)
-		(at 251.714 67.056 180)
+		(at 210.82 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2845,7 +3340,7 @@
 		)
 		(uuid "bf096e8a-a913-4a8a-a209-41c12a81da0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.6852 66.9766 0)
+			(at 198.7912 77.3906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +3374,7 @@
 	)
 	(global_label "PWM2_H_P"
 		(shape output)
-		(at 251.714 46.736 180)
+		(at 242.57 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2889,7 +3384,7 @@
 		)
 		(uuid "c88699e0-fb0f-4d73-8960-d3b688cbe19a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3828 46.6566 0)
+			(at 230.2388 57.0706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,9 +3394,31 @@
 			)
 		)
 	)
+	(global_label "Temp_C_N"
+		(shape output)
+		(at 199.39 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf1d9f1a-de1a-4951-b4e5-3b1fbb305534")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.8094 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM1_H_N"
 		(shape output)
-		(at 251.714 49.276 180)
+		(at 170.18 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2911,7 +3428,7 @@
 		)
 		(uuid "d0778a64-bda2-49fd-9dbf-6d3a2923b8eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3223 49.1966 0)
+			(at 157.7883 39.2906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3440,7 @@
 	)
 	(global_label "ERR_N"
 		(shape input)
-		(at 251.714 69.596 180)
+		(at 170.18 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2933,12 +3450,34 @@
 		)
 		(uuid "d2037dbe-dd6a-47c4-9fcf-b7a0ec1e75b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.3138 69.6754 0)
+			(at 161.7798 52.1494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Temp_B_N"
+		(shape output)
+		(at 199.39 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dacf1608-cf40-4061-967e-3b4457b5ae72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.8094 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2987,6 +3526,28 @@
 			)
 		)
 	)
+	(global_label "Current_B_out"
+		(shape output)
+		(at 195.58 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e361ac17-c46e-4f76-b5f6-689c8715b4b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.0381 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "G5"
 		(shape input)
 		(at 27.94 81.788 180)
@@ -3005,6 +3566,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Temp_B_P"
+		(shape output)
+		(at 199.39 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7b37dbf-e36e-462e-a9f1-99851604a24d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7489 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3055,7 +3638,7 @@
 	)
 	(global_label "PWM2_L_N"
 		(shape output)
-		(at 251.714 59.436 180)
+		(at 242.57 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3065,7 +3648,7 @@
 		)
 		(uuid "ee721daf-f5b1-4955-a79b-871578e8a371")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.6247 59.3566 0)
+			(at 230.4807 59.6106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,6 +3726,202 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
+		(at 167.64 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66f7586f-33ae-4e5f-a050-fb21f9ec1b5b")
+		(property "Reference" "J3"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Top_Bottom"
+			(at 168.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical"
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "10edde2e-338a-4724-8565-32244d92ceda")
+		)
+		(pin "11"
+			(uuid "06e34908-461d-4438-8412-c894382c982e")
+		)
+		(pin "1"
+			(uuid "2639735d-51bd-447d-a5fd-9ca7a3866c5d")
+		)
+		(pin "12"
+			(uuid "8fab1f41-5fd9-4953-ae53-fae574319da2")
+		)
+		(pin "2"
+			(uuid "e13d9f4d-6895-4f91-a251-d4b0edec407f")
+		)
+		(pin "3"
+			(uuid "19f76762-310b-4b42-84ff-b441588af299")
+		)
+		(pin "6"
+			(uuid "228ec41f-e595-43a2-9dd6-dfe9e812f243")
+		)
+		(pin "7"
+			(uuid "560c246e-fe55-46e0-92a5-a0007fe01f95")
+		)
+		(pin "9"
+			(uuid "d89f46bb-930b-4772-98f4-46c8ce356c70")
+		)
+		(pin "10"
+			(uuid "e0bc6df0-717b-405e-a2de-b751e1652521")
+		)
+		(pin "5"
+			(uuid "b27f3f8e-7412-4537-bda6-7426d4435f97")
+		)
+		(pin "4"
+			(uuid "c8fd9ebc-5213-423b-9b17-2cc692e213cf")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/98be4b32-51d8-4f7b-9b74-14890e40923b"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
+		(at 113.03 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dbd9475-752a-412a-b04d-e7350fe5210a")
+		(property "Reference" "J5"
+			(at 114.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Top_Bottom"
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical"
+			(at 113.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 113.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "baad1508-9178-41e0-ada2-baab98f347b6")
+		)
+		(pin "11"
+			(uuid "01c8bd94-d06c-4141-8dd6-0d17e9471bde")
+		)
+		(pin "1"
+			(uuid "e2fa953d-3a4e-4083-8ed0-8edb80714106")
+		)
+		(pin "12"
+			(uuid "26e83e92-a52d-414d-b851-58df84d07a7c")
+		)
+		(pin "2"
+			(uuid "42d0cfbd-ac36-4d2d-aea7-5606e6c92c60")
+		)
+		(pin "3"
+			(uuid "42484d02-a037-442c-899d-36eb6d052e12")
+		)
+		(pin "6"
+			(uuid "7d693c6e-7d37-440c-ba0c-899739a00072")
+		)
+		(pin "7"
+			(uuid "0ffbca9d-818a-4c6e-adfd-d3ceb26204e4")
+		)
+		(pin "9"
+			(uuid "21467e1b-1fd8-44b9-a98a-90aac7949f39")
+		)
+		(pin "10"
+			(uuid "b274eba8-69f5-4ec2-9cf5-6e702d6a6a9e")
+		)
+		(pin "5"
+			(uuid "0be8ddd0-18bf-4bc1-a7b7-f38aea356162")
+		)
+		(pin "4"
+			(uuid "8221bf72-7b1c-423b-ad8e-ac5c76e480ef")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/98be4b32-51d8-4f7b-9b74-14890e40923b"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 251.714 79.756 90)
 		(unit 1)
@@ -3204,6 +3983,104 @@
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/98be4b32-51d8-4f7b-9b74-14890e40923b"
 					(reference "#PWR0265")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
+		(at 140.97 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b33961d7-5396-4fa9-95ad-0d55af547b2a")
+		(property "Reference" "J4"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Top_Bottom"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "89079827-b2f6-4462-977d-d236083c3ddd")
+		)
+		(pin "11"
+			(uuid "c183408d-9777-4012-b12d-54dc309613d3")
+		)
+		(pin "1"
+			(uuid "6e49b4d4-1d87-43e1-882c-6cfeb6d7b8a5")
+		)
+		(pin "12"
+			(uuid "a6e38364-d004-408b-9e02-74c91c76caf0")
+		)
+		(pin "2"
+			(uuid "74c91105-202f-401e-a3e8-c2a89b3cf016")
+		)
+		(pin "3"
+			(uuid "775300d8-00d9-4aca-b01f-ccf2f0e89700")
+		)
+		(pin "6"
+			(uuid "db16eeac-5ef8-422a-8339-7eddba54b214")
+		)
+		(pin "7"
+			(uuid "1f4f6a79-7db6-4e42-8e5d-f72a7e03dfa2")
+		)
+		(pin "9"
+			(uuid "87cb91c5-9523-414e-b01c-8f24c9eabaa4")
+		)
+		(pin "10"
+			(uuid "da40ba34-b34f-4f95-ba4d-4c9e21e10b50")
+		)
+		(pin "5"
+			(uuid "a28e8910-fc53-4869-b1d4-c471850c3a30")
+		)
+		(pin "4"
+			(uuid "60b8cdd3-aa26-4543-836f-9b0609ec9051")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/98be4b32-51d8-4f7b-9b74-14890e40923b"
+					(reference "J4")
 					(unit 1)
 				)
 			)
