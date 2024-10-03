@@ -2752,7 +2752,7 @@
 			)
 		)
 	)
-	(global_label "RDY"
+	(global_label "RDY_A"
 		(shape input)
 		(at 80.01 57.15 180)
 		(fields_autoplaced yes)
@@ -2764,7 +2764,7 @@
 		)
 		(uuid "790aee39-3144-4981-9f53-8e85c184f0b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0684 57.15 0)
+			(at 71.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2950,7 @@
 			)
 		)
 	)
-	(global_label "FLT"
+	(global_label "FLT_A"
 		(shape input)
 		(at 80.01 54.61 180)
 		(fields_autoplaced yes)
@@ -2962,7 +2962,7 @@
 		)
 		(uuid "d8345f25-4318-4422-a789-ca6e806aefba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.4506 54.61 0)
+			(at 71.8843 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2972,7 @@
 			)
 		)
 	)
-	(global_label "FLT"
+	(global_label "FLT_A"
 		(shape input)
 		(at 80.01 135.89 180)
 		(fields_autoplaced yes)
@@ -2984,7 +2984,7 @@
 		)
 		(uuid "e127aca6-2244-4ab0-a5ba-d39a64f63be0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.4506 135.89 0)
+			(at 71.8843 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3038,7 @@
 			)
 		)
 	)
-	(global_label "RDY"
+	(global_label "RDY_A"
 		(shape input)
 		(at 80.01 138.43 180)
 		(fields_autoplaced yes)
@@ -3050,7 +3050,7 @@
 		)
 		(uuid "f2c77fb5-dd92-4492-a850-0eb16c342b0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0684 138.43 0)
+			(at 71.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
