@@ -75,7 +75,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.SilkS")
+		(layer "F.CrtYd")
 		(uuid "f8805aaf-0f16-48a8-b80f-3b37620aa734")
 	)
 	(fp_text user "${REFERENCE}"
