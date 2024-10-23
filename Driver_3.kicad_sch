@@ -3673,28 +3673,6 @@
 			)
 		)
 	)
-	(global_label "~{RST}"
-		(shape input)
-		(at 55.88 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1d7f30b6-51b7-4108-abe3-5306ce55593f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.065 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "G6"
 		(shape output)
 		(at 138.43 123.19 90)
@@ -3713,28 +3691,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{RST}"
-		(shape input)
-		(at 57.15 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "209657ac-95dc-409b-bc25-431624945cc3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.335 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3889,6 +3845,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{RST_C}"
+		(shape input)
+		(at 55.88 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6028c0b4-5344-4c5c-b958-102045629ac0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.2101 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4135,6 +4113,28 @@
 			)
 		)
 	)
+	(global_label "~{RST_C}"
+		(shape input)
+		(at 57.15 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dea6f4fd-db78-4b65-80cd-f5361e321761")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.4801 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+15V_H3"
 		(shape input)
 		(at 104.14 59.69 0)
@@ -4218,12 +4218,13 @@
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 152.654 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
@@ -5429,7 +5430,7 @@
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 128.524 70.104 0)
 			(effects
 				(font
@@ -6300,12 +6301,13 @@
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 157.734 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
@@ -6775,6 +6777,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -7310,7 +7313,7 @@
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 128.524 75.184 0)
 			(effects
 				(font

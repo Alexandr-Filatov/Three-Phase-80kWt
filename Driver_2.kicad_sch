@@ -3799,6 +3799,28 @@
 			)
 		)
 	)
+	(global_label "~{RST_B}"
+		(shape input)
+		(at 58.42 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e0c5d31-1fe3-4b3e-b694-4875219ad959")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.7501 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM_H2"
 		(shape input)
 		(at 81.28 63.5 180)
@@ -3834,6 +3856,28 @@
 		(uuid "784b1411-c503-49e5-b220-e79c160b52b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 71.4888 60.8806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{RST_B}"
+		(shape input)
+		(at 58.42 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83da4d6b-578c-44c4-84d8-a407510f64a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.7501 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,28 +4041,6 @@
 			)
 		)
 	)
-	(global_label "~{RST}"
-		(shape input)
-		(at 58.42 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cfd66cdd-55c5-4e3d-9cad-afc8b69bdf1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.605 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "C3"
 		(shape input)
 		(at 133.858 75.692 270)
@@ -4076,28 +4098,6 @@
 		(uuid "e7593b06-b8bc-4cd9-8175-3318f0857ad6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 71.4888 156.1306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{RST}"
-		(shape input)
-		(at 58.42 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e870503e-6183-4730-8bdd-93ee4bab2dd8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.605 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4634,7 @@
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 131.318 68.834 0)
 			(effects
 				(font
@@ -5106,7 +5106,7 @@
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 153.924 146.05 0)
 			(effects
 				(font
@@ -5913,7 +5913,7 @@
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 131.318 73.914 0)
 			(effects
 				(font
@@ -6925,7 +6925,7 @@
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 148.844 146.05 0)
 			(effects
 				(font

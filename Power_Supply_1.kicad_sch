@@ -1772,7 +1772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LQH32MN470K"
+		(property "Description" "NLCV32T-4R7M-EF"
 			(at 109.22 125.73 0)
 			(effects
 				(font
@@ -2040,7 +2040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LQH32MN470K"
+		(property "Description" "NLCV32T-4R7M-EF"
 			(at 109.22 81.28 0)
 			(effects
 				(font

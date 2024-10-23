@@ -6189,7 +6189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FYLS-0805UBC"
 			(at 175.26 45.085 0)
 			(effects
 				(font
@@ -6461,7 +6461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FYLS-0805UBC"
 			(at 175.26 147.955 0)
 			(effects
 				(font
@@ -6530,7 +6530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KP-2012SURCK"
 			(at 157.48 147.955 0)
 			(effects
 				(font
@@ -7494,7 +7494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KP-2012SYC"
 			(at 189.23 147.955 0)
 			(effects
 				(font
@@ -7628,7 +7628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KP-2012SYC"
 			(at 189.23 96.52 0)
 			(effects
 				(font
@@ -7764,7 +7764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KP-2012SYC"
 			(at 189.23 45.085 0)
 			(effects
 				(font
@@ -7902,7 +7902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KP-2012SURCK"
 			(at 157.48 45.085 0)
 			(effects
 				(font
@@ -9042,7 +9042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KP-2012SURCK"
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -9929,7 +9929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FYLS-0805UBC"
 			(at 175.26 96.52 0)
 			(effects
 				(font

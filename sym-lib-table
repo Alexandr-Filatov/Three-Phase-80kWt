@@ -6,4 +6,5 @@
   (lib (name "Sensors_My")(type "KiCad")(uri "${KIPRJMOD}/Sensors_My.kicad_sym")(options "")(descr ""))
   (lib (name "power_my")(type "KiCad")(uri "${KIPRJMOD}/power_my.kicad_sym")(options "")(descr ""))
   (lib (name "DCDC_My")(type "KiCad")(uri "${KIPRJMOD}/DCDC_My.kicad_sym")(options "")(descr ""))
+  (lib (name "Logo_EV_Tech")(type "KiCad")(uri "${KIPRJMOD}/Logo_EV_Tech.kicad_sym")(options "")(descr ""))
 )

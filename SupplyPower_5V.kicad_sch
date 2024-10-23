@@ -1684,7 +1684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KP-2012SYC"
 			(at 165.1 102.235 0)
 			(effects
 				(font
@@ -2057,7 +2057,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "K78xxM-1000R3"
+		(property "Value" "K7805M-1000R3"
 			(at 142.24 86.995 90)
 			(effects
 				(font

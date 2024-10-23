@@ -3513,6 +3513,28 @@
 		)
 		(uuid "72ed4a3e-6529-46c3-94ab-78540bbe447c")
 	)
+	(global_label "~{RST_A}"
+		(shape input)
+		(at 58.42 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0208bca9-5fc2-434c-b0e3-44bf616a2a75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.9315 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "E2"
 		(shape input)
 		(at 147.32 161.29 270)
@@ -3575,28 +3597,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{RST}"
-		(shape input)
-		(at 48.26 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "170f8310-a440-4bc8-8983-d3aeb81da1dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.445 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4063,6 +4063,28 @@
 			)
 		)
 	)
+	(global_label "~{RST_A}"
+		(shape input)
+		(at 48.26 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b57f515b-ec48-4e8d-a827-8fad6de76d81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.7715 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FLT_A"
 		(shape input)
 		(at 80.01 54.61 180)
@@ -4098,28 +4120,6 @@
 		(uuid "e127aca6-2244-4ab0-a5ba-d39a64f63be0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 71.8843 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{RST}"
-		(shape input)
-		(at 58.42 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e18a2d66-767c-4cb0-9b34-2e47ad9f6c01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.605 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4236,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 76.454 49.53 0)
+			(at 74.295 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +4897,7 @@
 		(fields_autoplaced yes)
 		(uuid "315b4d71-6560-4ad0-be1f-ae18bf8512a6")
 		(property "Reference" "D1"
-			(at 90.17 39.116 0)
+			(at 90.17 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +4905,7 @@
 			)
 		)
 		(property "Value" "NSI6651"
-			(at 90.17 41.656 0)
+			(at 90.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,12 +5507,13 @@
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 148.844 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
@@ -5703,14 +5704,14 @@
 		(dnp no)
 		(uuid "6a16dddc-5168-4844-a13f-4c6b8dda4fbd")
 		(property "Reference" "D59"
-			(at 155.194 128.524 90)
+			(at 155.194 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 155.956 133.35 0)
 			(effects
 				(font
@@ -5772,14 +5773,14 @@
 		(dnp no)
 		(uuid "7898a9ec-a084-4ac0-bcee-1022662a0a90")
 		(property "Reference" "D35"
-			(at 132.588 68.58 90)
+			(at 133.604 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 127.762 69.342 0)
 			(effects
 				(font
@@ -5905,7 +5906,7 @@
 		(dnp no)
 		(uuid "81b97e70-46f3-4336-aebf-837d4cb8d978")
 		(property "Reference" "R69"
-			(at 132.588 62.992 0)
+			(at 133.35 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +5914,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 128.27 62.992 90)
+			(at 128.524 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,14 +6242,14 @@
 		(dnp no)
 		(uuid "a4fed013-0f43-4303-8078-ad6d2797d54d")
 		(property "Reference" "D58"
-			(at 132.588 73.66 90)
+			(at 133.604 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MURS360T3G"
+		(property "Value" "MURS160"
 			(at 127.762 74.422 0)
 			(effects
 				(font
@@ -6711,7 +6712,7 @@
 		(dnp no)
 		(uuid "be6525b4-e91c-443a-b608-161699ca5e45")
 		(property "Reference" "D33"
-			(at 119.888 64.77 90)
+			(at 124.206 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +6983,7 @@
 		(dnp no)
 		(uuid "d42fab81-a924-45f3-ba30-18737daf50b0")
 		(property "Reference" "R68"
-			(at 132.588 57.658 0)
+			(at 133.35 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,7 +7186,7 @@
 		(dnp no)
 		(uuid "fcb90f38-f221-4e19-8961-a534ced69fbc")
 		(property "Reference" "C61"
-			(at 114.046 64.77 0)
+			(at 111.506 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)

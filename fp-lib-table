@@ -4,4 +4,5 @@
   (lib (name "Sensors_My")(type "KiCad")(uri "${KIPRJMOD}/Sensors_My.pretty")(options "")(descr ""))
   (lib (name "power_my")(type "KiCad")(uri "${KIPRJMOD}/power_my.pretty")(options "")(descr ""))
   (lib (name "DCDC_My")(type "KiCad")(uri "${KIPRJMOD}/DCDC_My.pretty")(options "")(descr ""))
+  (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/Logo.pretty")(options "")(descr ""))
 )

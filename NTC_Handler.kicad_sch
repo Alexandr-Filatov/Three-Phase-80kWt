@@ -6000,6 +6000,15 @@
 				(hide yes)
 			)
 		)
+		(property "Аналог" "SCM3728ASA"
+			(at 212.725 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28b2e6ff-90e2-4f9f-9b45-0162a79429ff")
 		)
@@ -6553,6 +6562,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.725 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Аналог" "SCM3728ASA"
 			(at 212.725 229.235 0)
 			(effects
 				(font
@@ -11521,7 +11539,7 @@
 		(fields_autoplaced yes)
 		(uuid "effa58fe-05ba-460f-a33b-b1e2f6e21ea0")
 		(property "Reference" "U5"
-			(at 212.725 63.373 0)
+			(at 212.725 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11529,7 +11547,7 @@
 			)
 		)
 		(property "Value" "ADuM1200AR"
-			(at 212.725 65.913 0)
+			(at 212.725 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11556,6 +11574,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.725 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Аналог" "SCM3728ASA"
 			(at 212.725 76.835 0)
 			(effects
 				(font

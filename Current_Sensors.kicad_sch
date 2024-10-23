@@ -2277,7 +2277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "YMC15S-500A"
 			(at 82.55 102.87 0)
 			(effects
 				(font
@@ -3088,7 +3088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "YMC15S-500A"
 			(at 137.16 102.87 0)
 			(effects
 				(font
@@ -3428,7 +3428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "YMC15S-500A"
 			(at 191.77 102.87 0)
 			(effects
 				(font
