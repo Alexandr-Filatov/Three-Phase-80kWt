@@ -4904,7 +4904,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI6651"
+		(property "Value" "NSI6651ASC-DSWR"
 			(at 90.17 41.91 0)
 			(effects
 				(font
@@ -6388,7 +6388,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI6651"
+		(property "Value" "NSI6651ASC-DSWR"
 			(at 90.17 123.19 0)
 			(effects
 				(font

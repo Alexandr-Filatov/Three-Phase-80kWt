@@ -5493,15 +5493,15 @@
 		(fields_autoplaced yes)
 		(uuid "69d6daa9-f68e-491c-9cac-750396a48892")
 		(property "Reference" "D1"
-			(at 88.9 42.164 0)
+			(at 88.9 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NSI6651"
-			(at 88.9 44.704 0)
+		(property "Value" "NSI6651ASC-DSWR"
+			(at 88.9 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,15 +5626,15 @@
 		(fields_autoplaced yes)
 		(uuid "6e743bf3-b48e-401b-abc8-4f125bf759fc")
 		(property "Reference" "D1"
-			(at 90.17 131.064 0)
+			(at 90.17 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NSI6651"
-			(at 90.17 133.604 0)
+		(property "Value" "NSI6651ASC-DSWR"
+			(at 90.17 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)

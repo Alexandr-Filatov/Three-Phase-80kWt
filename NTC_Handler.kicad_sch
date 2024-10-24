@@ -5617,7 +5617,7 @@
 				)
 			)
 		)
-		(property "Value" "LMV7239M5/NOPB"
+		(property "Value" "LMV7219M5X/NOPB"
 			(at 170.815 154.686 0)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 				)
 			)
 		)
-		(property "Value" "LMV7239M5/NOPB"
+		(property "Value" "LMV7219M5X/NOPB"
 			(at 170.815 231.521 0)
 			(effects
 				(font
@@ -10300,7 +10300,7 @@
 				)
 			)
 		)
-		(property "Value" "LMV7239M5/NOPB"
+		(property "Value" "LMV7219M5X/NOPB"
 			(at 170.815 79.121 0)
 			(effects
 				(font

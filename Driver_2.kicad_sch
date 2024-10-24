@@ -5716,7 +5716,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI6651"
+		(property "Value" "NSI6651ASC-DSWR"
 			(at 91.44 43.18 0)
 			(effects
 				(font
@@ -6787,15 +6787,15 @@
 		(fields_autoplaced yes)
 		(uuid "eacb8713-11fa-463f-bed1-302b538f6e02")
 		(property "Reference" "D1"
-			(at 91.44 133.604 0)
+			(at 91.44 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NSI6651"
-			(at 91.44 136.144 0)
+		(property "Value" "NSI6651ASC-DSWR"
+			(at 91.44 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
