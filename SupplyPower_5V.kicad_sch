@@ -1775,7 +1775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "K78xxM-1000R3"
+		(property "Footprint" "DCDC_My:K78xxM-1000R3"
 			(at 129.286 85.979 0)
 			(effects
 				(font
