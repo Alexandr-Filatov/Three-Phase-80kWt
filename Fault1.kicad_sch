@@ -2851,7 +2851,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "1k"
 			(at 35.687 44.45 0)
 			(effects
 				(font
@@ -2983,7 +2983,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 160.401 142.24 0)
 			(effects
 				(font
@@ -3511,7 +3511,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "1k"
 			(at 35.814 147.32 0)
 			(effects
 				(font
@@ -3913,7 +3913,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "1k"
 			(at 58.166 95.885 0)
 			(effects
 				(font
@@ -4313,7 +4313,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "1k"
 			(at 58.039 44.45 0)
 			(effects
 				(font
@@ -4530,7 +4530,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 178.181 39.37 0)
 			(effects
 				(font
@@ -5211,7 +5211,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 178.181 90.805 0)
 			(effects
 				(font
@@ -5825,7 +5825,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3k"
 			(at 192.151 142.24 0)
 			(effects
 				(font
@@ -6753,7 +6753,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3k"
 			(at 192.151 90.805 0)
 			(effects
 				(font
@@ -6820,7 +6820,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 160.401 39.37 0)
 			(effects
 				(font
@@ -7368,7 +7368,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "1k"
 			(at 35.814 95.885 0)
 			(effects
 				(font
@@ -7569,7 +7569,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "1k"
 			(at 58.166 147.32 0)
 			(effects
 				(font
@@ -7835,7 +7835,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 160.401 90.805 0)
 			(effects
 				(font
@@ -8307,7 +8307,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3k"
 			(at 192.151 39.37 0)
 			(effects
 				(font
@@ -8707,7 +8707,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 178.181 142.24 0)
 			(effects
 				(font
