@@ -695,7 +695,7 @@
 		)
 	)
 	(junction
-		(at 138.43 110.49)
+		(at 135.89 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26be9628-8ae6-42d9-b7fb-8e1c09401a2f")
@@ -707,19 +707,19 @@
 		(uuid "2d88cd6f-f496-425e-b0b6-32771bca7991")
 	)
 	(junction
-		(at 138.43 115.57)
+		(at 135.89 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56871bc0-dafe-4054-a382-bb3eff6327cc")
 	)
 	(junction
-		(at 138.43 83.82)
+		(at 135.89 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5922ed54-46a9-45f3-a411-903e3db9cf9c")
 	)
 	(junction
-		(at 138.43 78.74)
+		(at 135.89 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9386ffa2-e405-4a5c-97ca-ca2910b4ab78")
@@ -740,13 +740,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 110.49) (xy 138.43 110.49)
+			(xy 132.08 110.49) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "05a934e3-8c0e-46e1-be36-e741ce04191b")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f380df-7658-4043-9690-11482cb346fa")
 	)
 	(wire
 		(pts
@@ -770,6 +780,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 111.76) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e71c31e-f31e-485e-9e68-265d0510bae1")
+	)
+	(wire
+		(pts
 			(xy 165.1 82.55) (xy 165.1 86.36)
 		)
 		(stroke
@@ -780,7 +800,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 82.55) (xy 144.78 83.82)
+			(xy 142.24 82.55) (xy 142.24 83.82)
 		)
 		(stroke
 			(width 0)
@@ -830,6 +850,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 82.55) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781dd62a-7888-4759-bb60-e7ebceb10e51")
+	)
+	(wire
+		(pts
 			(xy 143.51 109.22) (xy 143.51 107.95)
 		)
 		(stroke
@@ -840,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 115.57) (xy 138.43 115.57)
+			(xy 132.08 115.57) (xy 135.89 115.57)
 		)
 		(stroke
 			(width 0)
@@ -860,7 +890,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 144.78 115.57)
+			(xy 142.24 114.3) (xy 142.24 115.57)
 		)
 		(stroke
 			(width 0)
@@ -870,7 +900,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 83.82) (xy 138.43 83.82)
+			(xy 132.08 83.82) (xy 135.89 83.82)
 		)
 		(stroke
 			(width 0)
@@ -880,7 +910,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 78.74) (xy 144.78 78.74)
+			(xy 135.89 78.74) (xy 142.24 78.74)
 		)
 		(stroke
 			(width 0)
@@ -890,7 +920,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 110.49) (xy 144.78 110.49)
+			(xy 135.89 110.49) (xy 142.24 110.49)
 		)
 		(stroke
 			(width 0)
@@ -900,7 +930,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 78.74) (xy 138.43 78.74)
+			(xy 132.08 78.74) (xy 135.89 78.74)
 		)
 		(stroke
 			(width 0)
@@ -940,7 +970,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 83.82) (xy 144.78 83.82)
+			(xy 135.89 83.82) (xy 142.24 83.82)
 		)
 		(stroke
 			(width 0)
@@ -970,7 +1000,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 115.57) (xy 144.78 115.57)
+			(xy 142.24 80.01) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4cdae3-868f-4670-a053-3509457a20cb")
+	)
+	(wire
+		(pts
+			(xy 135.89 115.57) (xy 142.24 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1000,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 78.74) (xy 144.78 80.01)
+			(xy 142.24 78.74) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1030,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 144.78 110.49)
+			(xy 142.24 110.49) (xy 142.24 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1062,7 +1102,7 @@
 	)
 	(global_label "PWM2_L_P"
 		(shape input)
-		(at 134.62 83.82 180)
+		(at 132.08 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1072,7 +1112,7 @@
 		)
 		(uuid "3f60c039-330f-4f69-9cc9-3e4bb05f77b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5912 83.7406 0)
+			(at 120.0512 83.7406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1084,7 +1124,7 @@
 	)
 	(global_label "PWM2_H_P"
 		(shape input)
-		(at 134.62 115.57 180)
+		(at 132.08 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1094,7 +1134,7 @@
 		)
 		(uuid "5866f93c-75e6-4d73-885b-611fb7adc19d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.2888 115.4906 0)
+			(at 119.7488 115.4906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1146,7 @@
 	)
 	(global_label "PWM2_H_N"
 		(shape input)
-		(at 134.62 110.49 180)
+		(at 132.08 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1116,7 +1156,7 @@
 		)
 		(uuid "96f89692-617f-4487-90fd-98fabe56f324")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.2283 110.4106 0)
+			(at 119.6883 110.4106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,7 +1190,7 @@
 	)
 	(global_label "PWM2_L_N"
 		(shape input)
-		(at 134.62 78.74 180)
+		(at 132.08 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1160,7 +1200,7 @@
 		)
 		(uuid "c2aed8dd-242a-4e09-9df3-5b059c2414f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.5307 78.6606 0)
+			(at 119.9907 78.6606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,6 +1342,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32d6ac11-deba-4ed3-b1f2-de93320ff1ae")
+		(property "Reference" "R117"
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba6de2be-2f4c-4b4c-8c9c-88b34e3a4d29")
+		)
+		(pin "2"
+			(uuid "45c492cc-5fb6-46da-9b0a-c82c1119620f")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d144a014-f04c-4a5c-ab89-4d35bea7c7d6"
+					(reference "R117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39dad1a2-9b80-449a-bd89-d5c2f261d2eb")
+		(property "Reference" "#PWR096"
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "452b2171-0164-4305-a70b-6d130441f25f")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d144a014-f04c-4a5c-ab89-4d35bea7c7d6"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 165.1 118.11 0)
 		(unit 1)
@@ -1435,7 +1609,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 138.43 81.28 0)
+		(at 135.89 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1443,7 +1617,7 @@
 		(dnp no)
 		(uuid "4971d309-1cba-4ce1-9b61-3856b613bad4")
 		(property "Reference" "R9"
-			(at 140.0048 80.0099 0)
+			(at 137.4648 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1626,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 140.0048 82.5499 0)
+			(at 137.4648 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1635,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 138.43 81.28 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 81.28 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1653,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 138.43 81.28 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,6 +1918,210 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "718c138e-b004-4081-afae-ef710ea362a6")
+		(property "Reference" "R115"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "496e39d8-b597-4b46-820e-a6ad575a8445")
+		)
+		(pin "2"
+			(uuid "a08e8178-85a0-438a-9481-f05c8ea554ca")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d144a014-f04c-4a5c-ab89-4d35bea7c7d6"
+					(reference "R115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7832edae-22ff-42bf-bc73-63dd109dbd82")
+		(property "Reference" "R114"
+			(at 137.4648 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 137.4648 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93f9cdc7-dcb5-4a4d-8110-96a070f89e1c")
+		)
+		(pin "2"
+			(uuid "955e1b89-c2e7-4daa-b0e2-ac88af2ac68e")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d144a014-f04c-4a5c-ab89-4d35bea7c7d6"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ce94539-f5b0-41c2-baec-fbf6d1fe6a37")
+		(property "Reference" "#PWR099"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.922 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42fccc95-2afc-4f4e-8b17-c2397ee1e78e")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d144a014-f04c-4a5c-ab89-4d35bea7c7d6"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 153.67 60.96 0)
 		(unit 1)
@@ -1814,6 +2192,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 135.89 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90fddf49-0211-48d2-845e-76fcb51e622e")
+		(property "Reference" "#PWR091"
+			(at 135.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.922 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2b192cf-7b6a-4651-8793-b7d561dc7b82")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d144a014-f04c-4a5c-ab89-4d35bea7c7d6"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 165.1 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1873,6 +2317,71 @@
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d144a014-f04c-4a5c-ab89-4d35bea7c7d6"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2d99525-90f9-49e3-81f0-4238846c71bf")
+		(property "Reference" "#PWR0101"
+			(at 135.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f4acd4c-5d4e-46d1-83f4-9c69c11d0a06")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d144a014-f04c-4a5c-ab89-4d35bea7c7d6"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2077,6 +2586,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c094fc41-5088-4a7e-9f81-139dc731ed51")
+		(property "Reference" "R116"
+			(at 137.4648 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 137.4648 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06bacf67-bc32-4420-b0cb-8dc23e23e83d")
+		)
+		(pin "2"
+			(uuid "e8693e65-d720-43ee-8a4b-32d6c1522dd4")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d144a014-f04c-4a5c-ab89-4d35bea7c7d6"
+					(reference "R116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 118.11 0)
 		(unit 1)
@@ -2144,7 +2722,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 138.43 113.03 0)
+		(at 135.89 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2152,7 +2730,7 @@
 		(dnp no)
 		(uuid "ccfe5702-f786-4c8c-8a20-d61dfd514c4b")
 		(property "Reference" "R10"
-			(at 140.0048 111.7599 0)
+			(at 137.4648 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +2739,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 140.0048 114.2999 0)
+			(at 137.4648 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,7 +2748,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 138.43 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +2757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2766,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 138.43 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
