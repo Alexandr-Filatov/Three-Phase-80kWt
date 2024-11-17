@@ -1,0 +1,40 @@
+Reference	Value	Footprint	Qty	DNP	Описание	Аналог
+C1,C2,C5,C6,C7,C8,C27,C28,C34,C35,C40,C41,C42,C50,C51,C52,C53,C55,C75,C76,C77,C78,C80,C84,C85,C88,C89	2.2u	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	27		Unpolarized capacitor, small symbol	
+C3,C4,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C31,C32,C36,C37,C38,C39,C43,C44,C47,C48,C49	10u	Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder	25		-- смешанные значения --	
+C21,C23,C25,C57,C58,C63,C64,C69,C70	0.1u	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	9		Unpolarized capacitor, small symbol	
+C22,C24,C26	10u	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	3		Unpolarized capacitor, small symbol	
+C29,C56,C81	10n	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	3		Unpolarized capacitor, small symbol	
+C30,C45,C46,C54,C59,C60,C65,C66,C71,C72,C79,C82,C83,C86,C87	56p	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	15		Unpolarized capacitor, small symbol	
+C33	22u	Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder	1		Unpolarized capacitor, small symbol	
+C61,C62,C67,C68,C73,C74	220p	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	6		Unpolarized capacitor, small symbol	
+D1,D23,D25	SN74AHC1G08DBVR	Package_TO_SOT_SMD:SOT-23-5_HandSoldering	3			
+D2,D3,D5,D6,D7,D8,D9,D20,D21,D22,D24,D26	ADM3485E	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	12			
+D4,D10,D16,D17,D18,D43	WRA1215S-3WR2	Mornsun:WRA_S-3WR2	6			
+D11,D14,D15	YMC15S-1000A	Sensors_My:YMC15S-500A	3		YMC15S-1000A	
+D12,D27,D30	FLT	LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder	3		Light emitting diode, small symbol	
+D13,D28,D49	RDY	LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder	3		Light emitting diode, small symbol	
+D19,D29,D50	PWR	LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder	3		Light emitting diode, small symbol	
+D31,D32,D37,D38,D44,D64	NSI6651ASC-DSWR	Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm	6			
+D33,D34,D39,D40,D45,D46	MMSZ5240B	Diode_SMD:D_SOD-123	6		Schottky diode, small symbol	
+D35,D36,D41,D42,D47,D48,D58,D59,D60,D61,D62,D63	MURS160	Diode_SMD:D_SMA_Handsoldering	12		Diode, small symbol	
+D51	+5V	LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder	1		Light emitting diode, small symbol	
+J1	GD820HTX75P6HB	IGBT_Modul:GD820HTX75P6HB	1		Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)	
+J3	Control_A	Connector_Molex:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical	1		Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)	
+J4	Control_C	Connector_Molex:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical	1		Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)	
+J5	Control_B	Connector_Molex:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical	1		Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)	
+L1,L2,L3,L4,L5,L6	4.7u	Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder	6		Inductor	
+Q1,Q2,Q3	BC817	Package_TO_SOT_SMD:SOT-23	3		NPN transistor, base/emitter/collector	
+R1,R9,R10,R11,R12,R29,R30,R31,R58,R61,R62,R65,R73,R74,R77,R84,R85,R86	120	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	18		Resistor, small symbol	
+R2,R3,R4,R69,R71,R81,R83,R93,R95	0	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	9		Resistor, small symbol	
+R5,R6,R7,R8,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R32,R33,R34,R35,R36,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50,R51,R52,R53,R54,R66	10	Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder	36		Resistor, small symbol	
+R25,R26,R27,R56,R57,R59,R63,R64,R70,R103,R104,R105,R106,R107,R108	10k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	15		Resistor, small symbol	
+R28,R60,R72	2.2k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	3		Resistor, small symbol	
+R37,R38,R39,R40,R75,R76,R78,R82,R87,R88,R90,R94,R97,R99,R101,R109	1k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	16		Resistor, small symbol	
+R55,R89,R96	3k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	3		Resistor, small symbol	
+R67,R68,R79,R80,R91,R92	1.1k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	6		Resistor, small symbol	
+R98,R100,R102	4.7k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	3		Resistor, small symbol	
+R110,R111,R112,R113,R114,R115,R116,R117,R118,R119,R120,R121	560	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	12		Resistor, small symbol	
+U1	K7805M-1000R3	DCDC_My:K78xxM-1000R3	1			
+U2,U3,U7	LM1117GS-5.0	Package_TO_SOT_SMD:SOT-223	3			
+U4,U8,U11	LMV7219M5X/NOPB	Package_TO_SOT_SMD:SOT-23-5	3		Single Low-Power High-Speed Push-Pull Output Comparator, SOT-23-5	
+U5,U6,U9	ADuM1200AR	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	3		Dual-channel digital isolator, Bidirectional communication, 3V/5V level translation, SOIC-8	SCM3728ASA
