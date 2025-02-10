@@ -2600,6 +2600,28 @@
 			)
 		)
 	)
+	(global_label "G5"
+		(shape output)
+		(at 154.305 66.675 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "214a90b7-c7f8-49ea-ae96-e0508fb54239")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.2256 61.7824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "-15V_L3"
 		(shape input)
 		(at 100.33 156.21 0)
@@ -2662,6 +2684,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "G6"
+		(shape output)
+		(at 145.415 123.19 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d1bf2da-91f7-4576-8119-3f95886ab094")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.3356 118.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2886,6 +2930,28 @@
 			)
 		)
 	)
+	(global_label "E5"
+		(shape input)
+		(at 154.305 71.755 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b59ae4b-cbda-4334-9ea4-ba1f2b296984")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.2256 76.5267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "G6"
 		(shape output)
 		(at 105.41 153.67 0)
@@ -2987,6 +3053,28 @@
 		(uuid "bafa0c28-4613-4038-ac22-cd03e9f7bfe9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.9846 81.8546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "E6"
+		(shape input)
+		(at 145.415 128.27 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdcbb3f8-271f-4e2c-9d50-e78434f99616")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.3356 133.0417 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,6 +3275,75 @@
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f6bfb91-7e0a-4b8d-9918-082ff107cb6c"
 					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 145.415 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ff52666-d0f2-417b-a6cf-4a8b1a2003a3")
+		(property "Reference" "C95"
+			(at 151.003 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 150.749 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 145.415 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 145.415 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 145.415 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb2290a0-c545-4e3e-a7df-16be799bdaa7")
+		)
+		(pin "2"
+			(uuid "10460b04-280e-4ddc-8c65-efe55a5f1f04")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f6bfb91-7e0a-4b8d-9918-082ff107cb6c"
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -3813,7 +3970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "100p"
 			(at 112.522 69.342 0)
 			(effects
 				(font
@@ -4553,6 +4710,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 154.305 69.215 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6baeda56-8392-4050-979f-394c30a934d8")
+		(property "Reference" "C94"
+			(at 159.893 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 159.639 67.183 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 154.305 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.305 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 154.305 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f3abb7c-bd11-4ce9-ab0e-48092259a30c")
+		)
+		(pin "2"
+			(uuid "d01bf0e3-d6ef-483f-b2de-547fa759f48a")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f6bfb91-7e0a-4b8d-9918-082ff107cb6c"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Driver_My:NSI6651")
 		(at 90.17 135.89 0)
 		(mirror y)
@@ -5168,7 +5394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "100p"
 			(at 143.51 157.988 90)
 			(effects
 				(font
