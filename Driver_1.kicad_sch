@@ -452,6 +452,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Zener_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Small"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Small_0_1"
+				(polyline
+					(pts
+						(xy 0.762 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1438,16 +1583,6 @@
 	)
 	(wire
 		(pts
-			(xy 150.622 130.81) (xy 152.654 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c36af0-19cd-41da-bcee-4b66fab8b808")
-	)
-	(wire
-		(pts
 			(xy 110.49 135.89) (xy 100.33 135.89)
 		)
 		(stroke
@@ -1678,16 +1813,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 65.532) (xy 130.302 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f04c21f-2945-47d1-9f6a-d479b3834239")
-	)
-	(wire
-		(pts
 			(xy 118.11 54.61) (xy 115.57 54.61)
 		)
 		(stroke
@@ -1868,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 130.81) (xy 134.62 130.81)
+			(xy 130.81 130.81) (xy 135.255 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1878,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 60.452) (xy 130.302 60.198)
+			(xy 130.175 60.325) (xy 130.175 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2208,7 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 49.53) (xy 130.302 49.53)
+			(xy 125.73 49.53) (xy 130.175 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.954 130.81) (xy 139.7 130.81)
+			(xy 140.589 130.81) (xy 140.335 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2238,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 145.034 130.81) (xy 145.542 130.81)
+			(xy 145.415 130.81) (xy 145.669 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2308,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 49.53) (xy 130.302 55.118)
+			(xy 130.175 49.53) (xy 130.175 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2417,6 +2542,30 @@
 			(justify left bottom)
 		)
 		(uuid "72ed4a3e-6529-46c3-94ab-78540bbe447c")
+	)
+	(text "DESAT Level 1.6V\n650A - 125 C\n900A - 25 C"
+		(exclude_from_sim no)
+		(at 144.145 70.485 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1ddf208-8b33-4335-9b97-9c1aae7a90d8")
+	)
+	(text "DESAT Level 1.6V\n650A - 125 C\n900A - 25 C"
+		(exclude_from_sim no)
+		(at 143.51 121.92 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d30b6e2e-d394-417d-a36c-670bf9990373")
 	)
 	(global_label "~{RST_A}"
 		(shape input)
@@ -2904,7 +3053,7 @@
 	)
 	(global_label "C1"
 		(shape input)
-		(at 130.302 76.2 270)
+		(at 130.175 75.565 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2914,7 +3063,7 @@
 		)
 		(uuid "8ac56164-e0fe-4672-88e8-93f21ef1d89e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.2226 81.0926 90)
+			(at 130.0956 80.4576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3339,7 @@
 	)
 	(global_label "C2"
 		(shape input)
-		(at 157.734 130.81 0)
+		(at 155.575 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3200,7 +3349,7 @@
 		)
 		(uuid "faaede8c-2aeb-4f9f-951c-9e98aefd8353")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.6266 130.7306 0)
+			(at 160.4676 130.7306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3626,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 142.494 130.81 270)
+		(at 143.129 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3485,7 +3634,7 @@
 		(dnp no)
 		(uuid "1d8217dd-eaa5-4107-a059-78f1a0cf2926")
 		(property "Reference" "R71"
-			(at 142.494 128.524 90)
+			(at 143.129 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3642,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 142.494 133.35 90)
+			(at 143.129 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +3650,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 142.494 130.81 0)
+			(at 143.129 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.494 130.81 0)
+			(at 143.129 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3668,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 142.494 130.81 0)
+			(at 143.129 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3760,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 137.16 130.81 270)
+		(at 137.795 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3619,15 +3768,15 @@
 		(dnp no)
 		(uuid "244a08c3-3e40-487a-bf72-768fa3af4139")
 		(property "Reference" "R67"
-			(at 137.16 128.524 90)
+			(at 137.795 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.1k"
-			(at 137.16 133.35 90)
+		(property "Value" "2.4k"
+			(at 137.795 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3784,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 137.16 130.81 0)
+			(at 137.795 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +3793,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 130.81 0)
+			(at 137.795 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3802,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 137.16 130.81 0)
+			(at 137.795 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,6 +4228,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 147.955 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e798fb5-f4e2-4942-99a8-13efb90b65cb")
+		(property "Reference" "D36"
+			(at 147.955 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMSZ5232B"
+			(at 147.955 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.955 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.955 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 147.955 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59a6812a-3851-4dd7-9d12-43fa6b8555b9")
+		)
+		(pin "1"
+			(uuid "2b24093f-4128-4dd1-b613-687fe188621f")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/24ca47b2-866f-4c90-ba1b-98c358d573e6"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 113.03 130.81 270)
 		(unit 1)
@@ -4480,92 +4697,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 148.082 130.81 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59a13100-a5d0-4346-918b-7d0612ecf423")
-		(property "Reference" "D36"
-			(at 148.082 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MURS160"
-			(at 148.844 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 148.082 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.082 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 148.082 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 148.082 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 148.082 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c7ef42a-85f5-48ae-a5ea-55aced306f2f")
-		)
-		(pin "2"
-			(uuid "ed515881-f5b2-4686-9d4b-9cf9088627d7")
-		)
-		(instances
-			(project "Adapter"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/24ca47b2-866f-4c90-ba1b-98c358d573e6"
-					(reference "D36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 154.305 158.75 180)
 		(unit 1)
@@ -4772,7 +4903,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 155.194 130.81 180)
+		(at 153.035 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4780,7 +4911,7 @@
 		(dnp no)
 		(uuid "6a16dddc-5168-4844-a13f-4c6b8dda4fbd")
 		(property "Reference" "D59"
-			(at 155.194 128.524 0)
+			(at 153.035 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4919,7 @@
 			)
 		)
 		(property "Value" "MURS160"
-			(at 155.956 133.35 0)
+			(at 153.797 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +4928,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 155.194 130.81 90)
+			(at 153.035 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +4937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 155.194 130.81 90)
+			(at 153.035 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +4946,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 155.194 130.81 0)
+			(at 153.035 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +4955,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 155.194 130.81 0)
+			(at 153.035 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +4964,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 155.194 130.81 0)
+			(at 153.035 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,92 +4982,6 @@
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/24ca47b2-866f-4c90-ba1b-98c358d573e6"
 					(reference "D59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 130.302 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7898a9ec-a084-4ac0-bcee-1022662a0a90")
-		(property "Reference" "D35"
-			(at 133.604 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MURS160"
-			(at 127.762 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 130.302 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.302 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 130.302 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 130.302 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 130.302 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20cc427a-c98c-4787-8219-42add3201bd6")
-		)
-		(pin "2"
-			(uuid "774da769-ecba-4aae-9a50-35d7dfc9550e")
-		)
-		(instances
-			(project "Adapter"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/24ca47b2-866f-4c90-ba1b-98c358d573e6"
-					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -5009,7 +5054,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 130.302 62.992 180)
+		(at 130.175 62.865 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5017,7 +5062,7 @@
 		(dnp no)
 		(uuid "81b97e70-46f3-4336-aebf-837d4cb8d978")
 		(property "Reference" "R69"
-			(at 133.35 62.992 0)
+			(at 133.223 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +5070,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 128.524 62.992 90)
+			(at 128.397 62.865 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5078,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 130.302 62.992 0)
+			(at 130.175 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.302 62.992 0)
+			(at 130.175 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5096,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 130.302 62.992 0)
+			(at 130.175 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,6 +5319,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 130.175 67.945 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ce9cbcf-d17e-40e0-9100-38227a43ef51")
+		(property "Reference" "D35"
+			(at 132.715 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMSZ5232B"
+			(at 133.985 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 130.175 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.175 67.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 130.175 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eebcda2f-2b94-42e7-bd8d-98f1360df667")
+		)
+		(pin "1"
+			(uuid "229b1d76-6c48-4293-b214-a92aea1fd9d5")
+		)
+		(instances
+			(project "Adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/24ca47b2-866f-4c90-ba1b-98c358d573e6"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 137.16 146.05 90)
 		(unit 1)
@@ -5344,7 +5457,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 130.302 73.66 90)
+		(at 130.175 73.025 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5352,7 +5465,7 @@
 		(dnp no)
 		(uuid "a4fed013-0f43-4303-8078-ad6d2797d54d")
 		(property "Reference" "D58"
-			(at 133.604 73.66 90)
+			(at 133.477 73.025 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +5473,7 @@
 			)
 		)
 		(property "Value" "MURS160"
-			(at 127.762 74.422 0)
+			(at 127.635 73.787 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5482,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 130.302 73.66 90)
+			(at 130.175 73.025 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.302 73.66 90)
+			(at 130.175 73.025 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5500,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 130.302 73.66 0)
+			(at 130.175 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5509,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 130.302 73.66 0)
+			(at 130.175 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5518,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 130.302 73.66 0)
+			(at 130.175 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +6282,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 130.302 57.658 180)
+		(at 130.175 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6177,15 +6290,15 @@
 		(dnp no)
 		(uuid "d42fab81-a924-45f3-ba30-18737daf50b0")
 		(property "Reference" "R68"
-			(at 133.35 57.658 0)
+			(at 133.223 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.1k"
-			(at 128.27 57.658 90)
+		(property "Value" "2.4k"
+			(at 128.143 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +6306,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 130.302 57.658 0)
+			(at 130.175 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.302 57.658 0)
+			(at 130.175 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6324,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 130.302 57.658 0)
+			(at 130.175 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
