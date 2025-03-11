@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.3,
-          "width": 3.5
+          "drill": 1.5,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -499,7 +499,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "bom/BOM_Three_Phase_Driver_VER2.0.csv",
+    "bom_export_filename": "bom/BOM_Three_Phase_Driver_VER2.1.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": "\t",
@@ -639,7 +639,7 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Корневой лист"
+      "Root"
     ],
     [
       "c04386e0-b49e-4fff-b380-675af13a62cb",
