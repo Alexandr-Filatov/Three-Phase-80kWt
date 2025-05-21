@@ -2078,7 +2078,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D35"
-			(at -1.016 -2 270)
+			(at -1.016 -2 90)
 			(layer "F.SilkS")
 			(uuid "29d35128-f395-40a7-b2d0-2a5edd3d1df3")
 			(effects
@@ -2089,7 +2089,7 @@
 			)
 		)
 		(property "Value" "MMSZ5232B"
-			(at 0 2.1 270)
+			(at 0 2.1 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "081edf27-c087-4573-bc0c-52f94d2fe633")
@@ -2312,7 +2312,7 @@
 			(uuid "b3001c28-a3e5-4c79-a4c4-410f8eda02bf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 270)
+			(at 0 -2 90)
 			(layer "F.Fab")
 			(uuid "8b5be22e-fcc0-43e5-bb72-0c5a0e64e1aa")
 			(effects

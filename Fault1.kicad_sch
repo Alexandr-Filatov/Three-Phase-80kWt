@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "03c7f780-fc1b-487a-b30d-567d6c09fdc8")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,11 +143,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -225,7 +234,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy -0.762 0)
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
 					)
 					(stroke
 						(width 0)
@@ -249,19 +270,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+						(xy 1.016 0) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -310,11 +319,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -432,6 +446,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Interface_My:ADM3485E_1"
 			(exclude_from_sim no)
@@ -575,34 +590,16 @@
 					)
 				)
 				(pin input line
-					(at 8.89 -11.43 180)
+					(at 8.89 -3.81 180)
 					(length 2.54)
-					(name "GND"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -8.89 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -629,16 +626,34 @@
 					)
 				)
 				(pin input line
-					(at 8.89 -3.81 180)
+					(at 8.89 -8.89 180)
 					(length 2.54)
-					(name "VCC"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -647,6 +662,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Logic_My:MC74VHC1GT08DTT1G"
 			(exclude_from_sim no)
@@ -762,24 +778,6 @@
 					)
 				)
 				(pin input line
-					(at 6.35 -8.89 180)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 6.35 -1.27 180)
 					(length 2.54)
 					(name "Vcc"
@@ -797,13 +795,36 @@
 						)
 					)
 				)
+				(pin input line
+					(at 6.35 -8.89 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+15V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -875,7 +896,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -887,7 +908,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -918,12 +939,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -995,7 +1021,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1007,7 +1033,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1038,12 +1064,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1134,7 +1165,140 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 143.51 120.015)
+		(end 200.66 169.545)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 56b40931-11b8-47b1-beeb-990aad873f5d)
+	)
+	(rectangle
+		(start 143.51 17.145)
+		(end 200.66 66.675)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 840b3e60-0ee6-4c91-b16c-a5671d78618e)
+	)
+	(rectangle
+		(start 16.51 68.58)
+		(end 141.605 118.11)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9b1a6acf-3897-44b6-9d8c-5fbaffda4333)
+	)
+	(rectangle
+		(start 16.51 120.015)
+		(end 141.605 169.545)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a6ad2de2-1c83-4ba2-87f5-c46f617c4fce)
+	)
+	(rectangle
+		(start 143.51 68.58)
+		(end 200.66 118.11)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e0003805-1788-4129-9376-b3f262eea806)
+	)
+	(rectangle
+		(start 16.383 17.145)
+		(end 141.478 66.675)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ea69568c-43f2-4fd7-bf72-acb3076bed20)
+	)
+	(text "Индикация B\n"
+		(exclude_from_sim no)
+		(at 154.305 71.12 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "158080e3-c5f9-4e66-a020-f04a1f681225")
+	)
+	(text "Индикация C"
+		(exclude_from_sim no)
+		(at 154.305 122.555 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "7b28b455-519b-4a76-927e-e71d32f4b907")
+	)
+	(text "Fault B\n"
+		(exclude_from_sim no)
+		(at 22.225 71.12 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "824d6c51-a0c7-47d8-8ccd-50ca40d19463")
+	)
+	(text "Fault C"
+		(exclude_from_sim no)
+		(at 22.225 122.555 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "b1a92f3a-7804-40a2-9de9-fd45c24bc51a")
+	)
+	(text "Индикация A"
+		(exclude_from_sim no)
+		(at 154.305 19.685 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "e0f187c5-e71c-47a1-8487-5dae8b9d925a")
+	)
+	(text "Fault A"
+		(exclude_from_sim no)
+		(at 22.098 19.685 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "e82aafbc-6b93-48fb-a9a5-b9bd15389333")
 	)
 	(junction
 		(at 125.095 149.225)
@@ -2107,138 +2271,6 @@
 			(type default)
 		)
 		(uuid "ffe3f923-30a3-49ca-a39b-6b0846751e05")
-	)
-	(rectangle
-		(start 143.51 120.015)
-		(end 200.66 169.545)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 56b40931-11b8-47b1-beeb-990aad873f5d)
-	)
-	(rectangle
-		(start 143.51 17.145)
-		(end 200.66 66.675)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 840b3e60-0ee6-4c91-b16c-a5671d78618e)
-	)
-	(rectangle
-		(start 16.51 68.58)
-		(end 141.605 118.11)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9b1a6acf-3897-44b6-9d8c-5fbaffda4333)
-	)
-	(rectangle
-		(start 16.51 120.015)
-		(end 141.605 169.545)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a6ad2de2-1c83-4ba2-87f5-c46f617c4fce)
-	)
-	(rectangle
-		(start 143.51 68.58)
-		(end 200.66 118.11)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e0003805-1788-4129-9376-b3f262eea806)
-	)
-	(rectangle
-		(start 16.383 17.145)
-		(end 141.478 66.675)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ea69568c-43f2-4fd7-bf72-acb3076bed20)
-	)
-	(text "Индикация B\n"
-		(exclude_from_sim no)
-		(at 154.305 71.12 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "158080e3-c5f9-4e66-a020-f04a1f681225")
-	)
-	(text "Индикация C"
-		(exclude_from_sim no)
-		(at 154.305 122.555 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "7b28b455-519b-4a76-927e-e71d32f4b907")
-	)
-	(text "Fault B\n"
-		(exclude_from_sim no)
-		(at 22.225 71.12 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "824d6c51-a0c7-47d8-8ccd-50ca40d19463")
-	)
-	(text "Fault C"
-		(exclude_from_sim no)
-		(at 22.225 122.555 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "b1a92f3a-7804-40a2-9de9-fd45c24bc51a")
-	)
-	(text "Индикация A"
-		(exclude_from_sim no)
-		(at 154.305 19.685 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "e0f187c5-e71c-47a1-8487-5dae8b9d925a")
-	)
-	(text "Fault A"
-		(exclude_from_sim no)
-		(at 22.098 19.685 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "e82aafbc-6b93-48fb-a9a5-b9bd15389333")
 	)
 	(global_label "RDY_A"
 		(shape input)

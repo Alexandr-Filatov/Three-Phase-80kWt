@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "03c7f780-fc1b-487a-b30d-567d6c09fdc8")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,11 +143,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -261,6 +270,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Sensors_My:YMC15S"
 			(exclude_from_sim no)
@@ -340,24 +350,6 @@
 					)
 				)
 				(pin input line
-					(at 8.89 -10.16 180)
-					(length 2.54)
-					(name "0V"
-						(effects
-							(font
-								(size 1.8034 1.8034)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.8034 1.8034)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 8.89 -6.35 180)
 					(length 2.54)
 					(name "Output"
@@ -375,13 +367,36 @@
 						)
 					)
 				)
+				(pin input line
+					(at 8.89 -10.16 180)
+					(length 2.54)
+					(name "0V"
+						(effects
+							(font
+								(size 1.8034 1.8034)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.8034 1.8034)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -453,7 +468,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -465,7 +480,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -496,12 +511,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -592,7 +612,74 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 71.755 91.44)
+		(end 125.095 120.65)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 500a8711-e20e-4940-983a-265d24f791ce)
+	)
+	(rectangle
+		(start 126.365 91.44)
+		(end 179.705 120.65)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6afd41ce-b23e-4151-8448-7eeaf13f8fb5)
+	)
+	(rectangle
+		(start 180.975 91.44)
+		(end 234.315 120.65)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8b7f7b02-2cae-45a6-bf76-70a85088da2b)
+	)
+	(text "Датчик тока фазы C"
+		(exclude_from_sim no)
+		(at 197.485 93.98 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "1194013a-7fc9-4e85-8d86-4a126042a6f0")
+	)
+	(text "Датчик тока фазы B"
+		(exclude_from_sim no)
+		(at 142.875 93.98 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "5d664c68-8b29-44f3-946d-977f042d559b")
+	)
+	(text "Датчик тока фазы А"
+		(exclude_from_sim no)
+		(at 88.265 93.98 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "7dcce9e0-017e-4c88-9525-f51882377551")
 	)
 	(junction
 		(at 156.21 109.22)
@@ -929,72 +1016,6 @@
 			(type default)
 		)
 		(uuid "f636c4ad-f6f5-45e0-86b5-638a659dc4a1")
-	)
-	(rectangle
-		(start 71.755 91.44)
-		(end 125.095 120.65)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 500a8711-e20e-4940-983a-265d24f791ce)
-	)
-	(rectangle
-		(start 126.365 91.44)
-		(end 179.705 120.65)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6afd41ce-b23e-4151-8448-7eeaf13f8fb5)
-	)
-	(rectangle
-		(start 180.975 91.44)
-		(end 234.315 120.65)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8b7f7b02-2cae-45a6-bf76-70a85088da2b)
-	)
-	(text "Датчик тока фазы C"
-		(exclude_from_sim no)
-		(at 197.485 93.98 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "1194013a-7fc9-4e85-8d86-4a126042a6f0")
-	)
-	(text "Датчик тока фазы B"
-		(exclude_from_sim no)
-		(at 142.875 93.98 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "5d664c68-8b29-44f3-946d-977f042d559b")
-	)
-	(text "Датчик тока фазы А"
-		(exclude_from_sim no)
-		(at 88.265 93.98 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "7dcce9e0-017e-4c88-9525-f51882377551")
 	)
 	(global_label "Current_B_out"
 		(shape output)
