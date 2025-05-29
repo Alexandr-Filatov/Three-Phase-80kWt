@@ -1392,12 +1392,6 @@
 		(uuid "2f37f3dc-36be-4679-8db3-c12ae68c2315")
 	)
 	(junction
-		(at 109.22 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d825135-3bff-4961-b8f1-4fd8ddef429c")
-	)
-	(junction
 		(at 125.73 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1408,18 +1402,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64f5bdf0-9730-4caf-87bf-fc35df8b66d5")
-	)
-	(junction
-		(at 110.49 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f45a8cf-3153-48d5-b86e-9dd4e745d2fb")
-	)
-	(junction
-		(at 111.76 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f810118-8740-4e4b-a928-bc9f91a9b481")
 	)
 	(junction
 		(at 151.892 148.59)
@@ -1456,12 +1438,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aafe07ab-a09c-4c76-9220-00acd188f11d")
-	)
-	(junction
-		(at 110.49 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7c5821a-185a-4d24-8a95-8373761d0575")
 	)
 	(junction
 		(at 135.89 148.59)
@@ -1539,16 +1515,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 80.01) (xy 109.22 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10320c1b-e749-43a4-80e5-aec5da88f141")
-	)
-	(wire
-		(pts
 			(xy 138.43 154.94) (xy 135.89 154.94)
 		)
 		(stroke
@@ -1566,16 +1532,6 @@
 			(type default)
 		)
 		(uuid "14d838b4-0f64-4ef3-ba4c-cc552b01819a")
-	)
-	(wire
-		(pts
-			(xy 119.38 143.51) (xy 119.38 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1675967e-f732-489e-8d1e-9825e95bbf00")
 	)
 	(wire
 		(pts
@@ -1696,16 +1652,6 @@
 			(type default)
 		)
 		(uuid "3fe9d150-a60b-45b7-ac68-9f7b4f02ad5a")
-	)
-	(wire
-		(pts
-			(xy 107.95 168.91) (xy 110.49 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4053a868-33c4-4feb-96b8-811e4a0504fb")
 	)
 	(wire
 		(pts
@@ -2059,16 +2005,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 109.22 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a574ba4-a34b-4941-a210-f6508b34f8c5")
-	)
-	(wire
-		(pts
 			(xy 111.76 140.97) (xy 111.76 143.51)
 		)
 		(stroke
@@ -2146,16 +2082,6 @@
 			(type default)
 		)
 		(uuid "a7bf5585-e89a-4e6a-8424-9d4e2e318c0b")
-	)
-	(wire
-		(pts
-			(xy 118.11 57.15) (xy 115.57 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "accbcf54-dc31-4d72-a0d7-55b280a23b9d")
 	)
 	(wire
 		(pts
@@ -2259,26 +2185,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 166.37) (xy 110.49 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5047710-0909-4aea-a15c-33ee1ef62d6b")
-	)
-	(wire
-		(pts
-			(xy 119.38 146.05) (xy 116.84 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8480582-82e0-4dad-b63b-3c49a0fb0f2f")
-	)
-	(wire
-		(pts
 			(xy 120.904 62.23) (xy 123.698 62.23)
 		)
 		(stroke
@@ -2336,16 +2242,6 @@
 			(type default)
 		)
 		(uuid "cdc8ddbd-8cf2-4345-99e8-0bd0fc3ea218")
-	)
-	(wire
-		(pts
-			(xy 118.11 54.61) (xy 118.11 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce4d9a70-b126-4fa6-93f1-4bee1c9095ff")
 	)
 	(wire
 		(pts
@@ -3516,73 +3412,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 110.49 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "155e4bea-3ac4-4cce-93f8-c5ae0bd8cd86")
-		(property "Reference" "R42"
-			(at 109.474 166.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 110.49 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 110.49 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 110.49 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14529c7e-4f99-4a6e-bade-81ca2cc9b910")
-		)
-		(pin "2"
-			(uuid "60634d69-c5a1-46db-9dfb-61f4911e24bb")
-		)
-		(instances
-			(project "Adapter"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f6bfb91-7e0a-4b8d-9918-082ff107cb6c"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 76.454 69.85 0)
 		(unit 1)
@@ -4313,73 +4142,6 @@
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f6bfb91-7e0a-4b8d-9918-082ff107cb6c"
 					(reference "#PWR0192")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 114.3 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56196a05-a87f-4984-9dc0-241008ff2661")
-		(property "Reference" "R54"
-			(at 117.856 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 114.3 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9de05a99-9f73-4bdb-8c61-bfc6e955c467")
-		)
-		(pin "2"
-			(uuid "7b173a5f-23f2-4502-a1c3-426ec5b66774")
-		)
-		(instances
-			(project "Adapter"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f6bfb91-7e0a-4b8d-9918-082ff107cb6c"
-					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -5124,73 +4886,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 113.03 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85e974e2-d5ed-45ab-a28f-837d7d593b49")
-		(property "Reference" "R48"
-			(at 116.586 56.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 113.03 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 113.03 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 113.03 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4de0ae50-5162-46ac-acfd-fad11197e293")
-		)
-		(pin "2"
-			(uuid "0dcd0bbc-dd8a-4dad-9fc7-7f2a9e6e69d4")
-		)
-		(instances
-			(project "Adapter"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f6bfb91-7e0a-4b8d-9918-082ff107cb6c"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 114.3 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5872,73 +5567,6 @@
 			(project "Adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f6bfb91-7e0a-4b8d-9918-082ff107cb6c"
 					(reference "#PWR0195")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 109.22 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3f27d12-6a5b-4979-aef3-d8f30c66b278")
-		(property "Reference" "R35"
-			(at 108.204 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 109.22 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 109.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 109.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c483bbd4-b143-4dd8-850e-daef16d4d96c")
-		)
-		(pin "2"
-			(uuid "cde5eeb6-8c0e-476d-9ea4-c28abd717f0d")
-		)
-		(instances
-			(project "Adapter"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f6bfb91-7e0a-4b8d-9918-082ff107cb6c"
-					(reference "R35")
 					(unit 1)
 				)
 			)
