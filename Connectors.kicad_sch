@@ -3519,6 +3519,38 @@
 				(hide yes)
 			)
 		)
+		(property "Description P/N" ""
+			(at 65.405 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 65.405 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 65.405 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 65.405 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2ec2ecd-8f4e-4697-83df-c11078455cd9")
 		)
@@ -3584,6 +3616,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description P/N" ""
+			(at 53.975 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 53.975 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 53.975 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 53.975 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3719,6 +3783,38 @@
 				(hide yes)
 			)
 		)
+		(property "Description P/N" ""
+			(at 53.975 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 53.975 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 53.975 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 53.975 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6719724d-8925-4a64-9578-ab115f97382c")
 		)
@@ -3819,7 +3915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC817"
+		(property "Value" "~"
 			(at 68.58 106.0449 0)
 			(effects
 				(font
@@ -3847,6 +3943,41 @@
 			)
 		)
 		(property "Description" "NPN transistor, base/emitter/collector"
+			(at 62.865 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Bipolar transistor"
+			(at 62.865 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "BC817"
+			(at 62.865 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 62.865 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
 			(at 62.865 104.775 0)
 			(effects
 				(font
@@ -3990,6 +4121,38 @@
 				(hide yes)
 			)
 		)
+		(property "Description P/N" ""
+			(at 65.405 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 65.405 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 65.405 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 65.405 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9fdaa3c-cae7-4ea4-84f2-4e7a5ce4628d")
 		)
@@ -4013,17 +4176,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66f7586f-33ae-4e5f-a050-fb21f9ec1b5b")
 		(property "Reference" "J4"
-			(at 117.475 143.51 0)
+			(at 117.602 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Control_C"
+		(property "Value" "~"
 			(at 117.475 146.05 0)
 			(effects
 				(font
@@ -4050,6 +4212,41 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.205 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 116.205 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" ""
+			(at 116.205 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Control_C"
+			(at 117.602 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
 			(at 116.205 154.94 0)
 			(effects
 				(font
@@ -4176,17 +4373,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6dbd9475-752a-412a-b04d-e7350fe5210a")
 		(property "Reference" "J3"
-			(at 117.475 95.885 0)
+			(at 117.348 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Control_A"
+		(property "Value" "~"
 			(at 117.475 98.425 0)
 			(effects
 				(font
@@ -4219,6 +4415,40 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 116.205 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" ""
+			(at 116.205 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Control_A"
+			(at 117.348 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Replacement" ""
+			(at 116.205 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
@@ -4285,7 +4515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC817"
+		(property "Value" "~"
 			(at 68.58 165.0999 0)
 			(effects
 				(font
@@ -4313,6 +4543,41 @@
 			)
 		)
 		(property "Description" "NPN transistor, base/emitter/collector"
+			(at 62.865 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Bipolar transistor"
+			(at 62.865 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "BC817"
+			(at 62.865 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 62.865 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
 			(at 62.865 163.83 0)
 			(effects
 				(font
@@ -4522,6 +4787,38 @@
 				(hide yes)
 			)
 		)
+		(property "Description P/N" ""
+			(at 53.975 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 53.975 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 53.975 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 53.975 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "08b5b9c6-147a-47a4-9605-745df2d6761e")
 		)
@@ -4545,17 +4842,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b33961d7-5396-4fa9-95ad-0d55af547b2a")
 		(property "Reference" "J5"
-			(at 117.475 119.38 0)
+			(at 117.348 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Control_B"
+		(property "Value" "~"
 			(at 117.475 121.92 0)
 			(effects
 				(font
@@ -4582,6 +4878,41 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.205 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 116.205 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" ""
+			(at 116.205 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Control_B"
+			(at 117.602 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
 			(at 116.205 130.81 0)
 			(effects
 				(font
@@ -4687,6 +5018,38 @@
 				(hide yes)
 			)
 		)
+		(property "Description P/N" ""
+			(at 65.405 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 65.405 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 65.405 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 65.405 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2b4a1cf-e163-495d-8f1d-7002cda1d859")
 		)
@@ -4721,7 +5084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC817"
+		(property "Value" "~"
 			(at 68.58 135.2549 0)
 			(effects
 				(font
@@ -4749,6 +5112,41 @@
 			)
 		)
 		(property "Description" "NPN transistor, base/emitter/collector"
+			(at 62.865 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Bipolar transistor"
+			(at 62.865 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "BC817"
+			(at 62.865 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 62.865 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
 			(at 62.865 133.985 0)
 			(effects
 				(font
@@ -4859,7 +5257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GD820HTX75P6HB"
+		(property "Value" "~"
 			(at 35.306 61.4679 0)
 			(effects
 				(font
@@ -4893,6 +5291,39 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description P/N" ""
+			(at 33.02 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "GD820HTX75P6HB"
+			(at 33.02 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 33.02 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 33.02 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

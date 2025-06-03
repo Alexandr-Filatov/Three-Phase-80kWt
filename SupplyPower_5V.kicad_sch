@@ -1102,6 +1102,38 @@
 				(hide yes)
 			)
 		)
+		(property "Description P/N" ""
+			(at 155.575 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 155.575 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 155.575 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 155.575 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "28acca87-b29f-414a-87d8-b6ac72bac103")
 		)
@@ -1301,6 +1333,38 @@
 				(hide yes)
 			)
 		)
+		(property "Description P/N" ""
+			(at 121.285 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 121.285 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 121.285 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 121.285 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89834e4f-883b-41de-ad3a-0bce32b63647")
 		)
@@ -1399,7 +1463,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "~"
 			(at 166.878 103.378 90)
 			(effects
 				(font
@@ -1427,6 +1491,42 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 165.1 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Yellow LED"
+			(at 165.1 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "FYLS-0805UYC"
+			(at 165.1 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "+5V"
+			(at 165.1 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
 			(at 165.1 102.235 0)
 			(effects
 				(font
@@ -1500,6 +1600,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description P/N" ""
+			(at 165.1 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 165.1 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 165.1 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 165.1 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1786,18 +1918,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7045c9e-250c-4a82-849a-09dd4bd6e827")
 		(property "Reference" "U1"
-			(at 142.24 84.455 90)
+			(at 135.89 79.248 90)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "K7805M-1000R3"
+		(property "Value" "~"
 			(at 142.24 86.995 90)
 			(effects
 				(font
@@ -1825,6 +1955,41 @@
 			)
 		)
 		(property "Description" ""
+			(at 135.89 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "DCDC converter"
+			(at 135.89 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "K7805M-1000R3"
+			(at 135.89 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 135.89 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
 			(at 135.89 90.805 0)
 			(effects
 				(font
