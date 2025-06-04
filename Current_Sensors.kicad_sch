@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "03c7f780-fc1b-487a-b30d-567d6c09fdc8")
 	(paper "A4")
+	(title_block
+		(date "2025-06-04")
+		(company "ООО \"ЭТТ\"")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -619,7 +623,7 @@
 		(start 71.755 91.44)
 		(end 125.095 120.65)
 		(stroke
-			(width 0)
+			(width 0.3)
 			(type dash)
 		)
 		(fill
@@ -631,7 +635,7 @@
 		(start 126.365 91.44)
 		(end 179.705 120.65)
 		(stroke
-			(width 0)
+			(width 0.3)
 			(type dash)
 		)
 		(fill
@@ -643,7 +647,7 @@
 		(start 180.975 91.44)
 		(end 234.315 120.65)
 		(stroke
-			(width 0)
+			(width 0.3)
 			(type dash)
 		)
 		(fill
@@ -653,30 +657,30 @@
 	)
 	(text "Датчик тока фазы C"
 		(exclude_from_sim no)
-		(at 197.485 93.98 0)
+		(at 197.358 94.488 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 3 3)
 			)
 		)
 		(uuid "1194013a-7fc9-4e85-8d86-4a126042a6f0")
 	)
 	(text "Датчик тока фазы B"
 		(exclude_from_sim no)
-		(at 142.875 93.98 0)
+		(at 142.748 94.488 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 3 3)
 			)
 		)
 		(uuid "5d664c68-8b29-44f3-946d-977f042d559b")
 	)
 	(text "Датчик тока фазы А"
 		(exclude_from_sim no)
-		(at 88.265 93.98 0)
+		(at 88.138 94.488 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 3 3)
 			)
 		)
 		(uuid "7dcce9e0-017e-4c88-9525-f51882377551")

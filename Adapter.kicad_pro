@@ -671,7 +671,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://gost_landscape.kicad_wks",
     "plot_directory": "Docs/",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
