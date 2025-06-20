@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "58f19c88-a75d-4395-8e0b-ccf0cbc2ea80")
 	(paper "A4")
+	(title_block
+		(comment 1 "НВЦТ.EVP150-2-1.2000.120")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

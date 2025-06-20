@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "71fb5b31-746a-4b38-94f9-e1ddea6a1917")
 	(paper "A3")
+	(title_block
+		(comment 1 "НВЦТ.EVP150-2-1.2000.120")
+	)
 	(lib_symbols
 		(symbol "Comparator:LMV7219M5"
 			(pin_names

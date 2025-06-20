@@ -3066,15 +3066,15 @@
 			(uuid "64139a75-2b08-4f06-a505-a6244aefe8d3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3D models/430451212.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7.5 -1.5 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -22203,15 +22203,15 @@
 			(uuid "1950d791-52d6-401d-bdae-4266123237a2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3D models/430451212.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7.5 -1.5 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -37693,15 +37693,15 @@
 			(uuid "aadac18f-231b-47e0-9f91-f5a9de71a945")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3D models/430451212.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7.5 -1.5 5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -43609,6 +43609,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D models/Starpower GD820HTX75P6HB.STEP"
+			(hide yes)
 			(offset
 				(xyz 51 -41 -17)
 			)

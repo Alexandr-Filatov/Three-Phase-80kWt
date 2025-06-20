@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "8eb3c1e4-6758-443b-800c-06c0be0042c0")
 	(paper "A4")
+	(title_block
+		(comment 1 "НВЦТ.EVP150-2-1.2000.120")
+	)
 	(lib_symbols
 		(symbol "DCDC_My:K78xxM-1000R3"
 			(exclude_from_sim no)

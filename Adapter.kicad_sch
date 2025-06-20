@@ -4,9 +4,18 @@
 	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
+	(title_block
+		(title "Плата драйверов модуля фазных обмоток")
+		(company "ООО \"Электротранспортные технологии\"")
+		(comment 1 "НВЦТ.EVP150-2-1.2000.120")
+		(comment 2 "Филатов А.С.")
+		(comment 3 "Сизякин А.В.")
+		(comment 4 "Коваленко В.А.")
+		(comment 6 "Теленков А.П.")
+	)
 	(lib_symbols)
 	(sheet
-		(at 18.288 81.28)
+		(at 31.75 57.15)
 		(size 28.194 22.606)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +31,7 @@
 		)
 		(uuid "24ca47b2-866f-4c90-ba1b-98c358d573e6")
 		(property "Sheetname" "Driver_1"
-			(at 18.288 80.5684 0)
+			(at 31.75 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +40,7 @@
 			)
 		)
 		(property "Sheetfile" "Driver_1.kicad_sch"
-			(at 18.288 104.4706 0)
+			(at 31.75 80.3406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +57,7 @@
 		)
 	)
 	(sheet
-		(at 85.344 52.578)
+		(at 98.806 28.448)
 		(size 28.194 22.606)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +73,7 @@
 		)
 		(uuid "3f2b9816-0353-4471-8753-8626d6dd2b30")
 		(property "Sheetname" "Power_Supply_3"
-			(at 85.344 51.8664 0)
+			(at 98.806 27.7364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +82,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Supply_3.kicad_sch"
-			(at 85.344 75.7686 0)
+			(at 98.806 51.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +99,7 @@
 		)
 	)
 	(sheet
-		(at 18.288 109.6264)
+		(at 31.75 85.4964)
 		(size 28.194 22.5552)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +115,7 @@
 		)
 		(uuid "48506f31-24d2-459a-84b5-2cde043f3b1b")
 		(property "Sheetname" "SupplyPower_5V"
-			(at 18.288 108.9148 0)
+			(at 31.75 84.7848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +124,7 @@
 			)
 		)
 		(property "Sheetfile" "SupplyPower_5V.kicad_sch"
-			(at 18.288 132.7662 0)
+			(at 31.75 108.6362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +141,7 @@
 		)
 	)
 	(sheet
-		(at 85.344 81.28)
+		(at 98.806 57.15)
 		(size 28.194 22.606)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +157,7 @@
 		)
 		(uuid "4f6bfb91-7e0a-4b8d-9918-082ff107cb6c")
 		(property "Sheetname" "Driver_3"
-			(at 85.344 80.5684 0)
+			(at 98.806 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +166,7 @@
 			)
 		)
 		(property "Sheetfile" "Driver_3.kicad_sch"
-			(at 85.344 104.4706 0)
+			(at 98.806 80.3406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +183,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 167.64)
+		(at 64.262 143.51)
 		(size 28.194 22.352)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -190,7 +199,7 @@
 		)
 		(uuid "67ea8833-ced1-4081-a899-15fa07aad06e")
 		(property "Sheetname" "Current_Sensors"
-			(at 50.8 166.9284 0)
+			(at 64.262 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +208,7 @@
 			)
 		)
 		(property "Sheetfile" "Current_Sensors.kicad_sch"
-			(at 50.8 190.5766 0)
+			(at 64.262 166.4466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +225,7 @@
 		)
 	)
 	(sheet
-		(at 51.308 81.28)
+		(at 64.77 57.15)
 		(size 28.194 22.606)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +241,7 @@
 		)
 		(uuid "7be86f5d-dd1f-4f1b-8cd0-4746349973df")
 		(property "Sheetname" "Driver_2"
-			(at 51.308 80.5684 0)
+			(at 64.77 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +250,7 @@
 			)
 		)
 		(property "Sheetfile" "Driver_2.kicad_sch"
-			(at 51.308 104.4706 0)
+			(at 64.77 80.3406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,7 +267,7 @@
 		)
 	)
 	(sheet
-		(at 18.288 138.303)
+		(at 31.75 114.173)
 		(size 28.194 22.352)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -274,7 +283,7 @@
 		)
 		(uuid "7c11a07f-525c-45a7-9ad1-361ea90615cc")
 		(property "Sheetname" "Logic_Pritection"
-			(at 18.288 137.5914 0)
+			(at 31.75 113.4614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,7 +292,7 @@
 			)
 		)
 		(property "Sheetfile" "Logic_Pritection.kicad_sch"
-			(at 18.288 161.2396 0)
+			(at 31.75 137.1096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +309,7 @@
 		)
 	)
 	(sheet
-		(at 18.288 52.578)
+		(at 31.75 28.448)
 		(size 28.194 22.606)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -316,7 +325,7 @@
 		)
 		(uuid "8bc24c89-3b12-490f-84ca-49e9e82b282d")
 		(property "Sheetname" "Power_Supply_1"
-			(at 18.288 51.8664 0)
+			(at 31.75 27.7364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +334,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Supply_1.kicad_sch"
-			(at 18.288 75.7686 0)
+			(at 31.75 51.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,7 +351,7 @@
 		)
 	)
 	(sheet
-		(at 85.344 109.474)
+		(at 98.806 85.344)
 		(size 28.448 22.606)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -358,7 +367,7 @@
 		)
 		(uuid "98be4b32-51d8-4f7b-9b74-14890e40923b")
 		(property "Sheetname" "Connectors"
-			(at 85.344 108.7624 0)
+			(at 98.806 84.6324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +376,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 85.344 132.6646 0)
+			(at 98.806 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,7 +393,7 @@
 		)
 	)
 	(sheet
-		(at 51.2572 109.6264)
+		(at 64.7192 85.4964)
 		(size 28.448 22.5552)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -400,7 +409,7 @@
 		)
 		(uuid "bd631d25-c4d3-4dfd-857d-5758a7c83797")
 		(property "Sheetname" "NTC_Handler"
-			(at 51.2572 108.9148 0)
+			(at 64.7192 84.7848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409,7 +418,7 @@
 			)
 		)
 		(property "Sheetfile" "NTC_Handler.kicad_sch"
-			(at 51.2572 132.7662 0)
+			(at 64.7192 108.6362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,7 +435,7 @@
 		)
 	)
 	(sheet
-		(at 18.415 167.767)
+		(at 31.877 143.637)
 		(size 28.194 22.352)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -442,7 +451,7 @@
 		)
 		(uuid "c04386e0-b49e-4fff-b380-675af13a62cb")
 		(property "Sheetname" "Fault1"
-			(at 18.415 167.0554 0)
+			(at 31.877 142.9254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -451,7 +460,7 @@
 			)
 		)
 		(property "Sheetfile" "Fault1.kicad_sch"
-			(at 18.415 190.7036 0)
+			(at 31.877 166.5736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,7 +477,7 @@
 		)
 	)
 	(sheet
-		(at 51.2572 138.3284)
+		(at 64.7192 114.1984)
 		(size 28.448 22.352)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -484,7 +493,7 @@
 		)
 		(uuid "d144a014-f04c-4a5c-ab89-4d35bea7c7d6")
 		(property "Sheetname" "Logic_Protection2"
-			(at 51.2572 137.6168 0)
+			(at 64.7192 113.4868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,7 +502,7 @@
 			)
 		)
 		(property "Sheetfile" "Logic_Protection2.kicad_sch"
-			(at 51.2572 161.265 0)
+			(at 64.7192 137.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -510,7 +519,7 @@
 		)
 	)
 	(sheet
-		(at 51.308 52.578)
+		(at 64.77 28.448)
 		(size 28.194 22.606)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -526,7 +535,7 @@
 		)
 		(uuid "d15de62d-a72f-4a11-bc27-e846a6167c42")
 		(property "Sheetname" "Power_Supply_2"
-			(at 51.308 51.8664 0)
+			(at 64.77 27.7364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,7 +544,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Supply_2.kicad_sch"
-			(at 51.308 75.7686 0)
+			(at 64.77 51.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,7 +561,7 @@
 		)
 	)
 	(sheet
-		(at 85.471 138.3284)
+		(at 98.933 114.1984)
 		(size 28.448 22.352)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -568,7 +577,7 @@
 		)
 		(uuid "db5d7e63-27d7-4aee-825c-495c36afbd19")
 		(property "Sheetname" "Logic_Protection3"
-			(at 85.471 137.6168 0)
+			(at 98.933 113.4868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,7 +586,7 @@
 			)
 		)
 		(property "Sheetfile" "Logic_Protection3.kicad_sch"
-			(at 85.471 161.265 0)
+			(at 98.933 137.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,4 +608,35 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "gost_landscape.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WC6IO0nAEYqgjFAc9pUwaAq7rGQvf7J+ej28lrFVi+Ra0Qr0XvBpp0PVIKJocju3inLuMxu
+				WJMBZ+8LfABnAHoALNo2GUZx9Wyv+vGO7GqGEQi0h1NBVbQbu4asUlxtNdu0DUOHHXuz3S4LorjC
+				2E01EGgMV8+VUWw3dfNo1moMH81SFXzgYBtVTc4wznZ5FqxD7VTQq7ccP9gGTKJmWIeqoOVcJzCQ
+				DVVL8SfCVhDFDBBgIzTR1VmonOtDBRi2oWoZrJTd7jX9n7Khe3Oye/9Ms1rmYPfHZufeRc3LSf+n
+				jA0dvmaRc3bwZWv+XePfzun8KCGM/7Cfewzne/kzOnz97xpCdtQnfM1OdoRSwyL6ns9/yCEXdTKt
+				OdMw+9FeW47UoQcp1/Kgs+ReeFeQbod89jhy6K+b4b9sl8309ehUweEadu1UTChOpuuy4U1LLpJO
+				lVtSuhJakbPaCV0eintGDej97uhEuhmOcrWX1TbJb5lclmu6pItyMa5v1WZ1wyIHzIIiICx/hlaE
+				zSDtgyDQGGvlWpxSbsstXdJLQQAB1cP21+/uObTaZWza0c22HZYs36ROMpS0m+FjF6MbeD2fZOgw
+				wZ3rg/x/m2kOFM+HkHnw/SDTPLsg89wrZHil5ZLQ0Wmkp4vQlk4KkREFxB1+PPn90ttfe+myyeUD
+				umO5J3flmlwuU5xO7sejFKfRiSWBbahBUahmpCAFSSHDGnGRwBiC1Z0dskgQgjAUw4AcCGIcAhlC
+				HCFEQAwhhBhjREauHS1W9GqoT2ej9oib6AkUZ1xytemsseM0xpmg8F4VpZ0BeQEinRqXR/LHvcXM
+				zxBtuIUaw8HcSNawPE002iKV23H6UV273ntSIAlTA5N1ZdrndCiVe6uBaRiHYYiKq9GgNrTeNTRf
+				NfUJ/32bWh9/57DHw7uQxz4ULHfFeApmWDLvyo3GHRcRbczSKYx08fXGVh6xzSXRvDpB6BApYY8y
+				6sEbrKBGeegRkrjMrCrrLxeLYxp0HswTCskvDBMXTHE/T+ByeqaPP3qdKzND8/1VD3bUDeJn0Y9z
+				gDZPfEvFjAaAJZpbLUtz3kaxhDe3Snk/4OyFwqFNmJyv7iYuCzQrtB3ykyQKiwBJcw2JxNU32g3/
+				kVAxeFgRdQg12uIi1pyRGPpIH4Xa+rlwJouAD+8zrEHs/Mj95yRfSbzxr/d0A4lRg1eZtAqJQBlT
+				3zHGdrqzkPo5zEAHci6R5WaJ7M8aOMeYTH8ylU/JOjqDbeYB3A/SED8iC0uFsZZlGFxjlGVAmFBW
+				Sg295mriH68MGT6sxAPRzPNjscyiXi6CHelA4On6CGhR0TBQg6X1agUnjA2o+EQ8+EMjOt0EE3O1
+				KZXjk96NgCgPyIEYPya3WbCT53yDvYomiSBeq3cTdXyh8ErjMLtLd9lDpdvsZ53W2mh1ArZ1o9W/
+				pn4MvGAJn4RflojuA5iT3WAhYm7x+ywpKbA6SP8AsvhaPKoyXAVabGD5KqtYRIZHh+1qjSosK7Zk
+				WnUXr26KKLGZ9FmofbXdLWEkLIYWnz6CoHAJ1aETYyMLDNADH7/BUkuXmDcZVyKv/jweRknOlknx
+				InFQ+uGQOpYGNF5vgyfg9IZKup03LTR7DEu7ADGKQmGCR30jTPWNMAURYVmFlx3OQiIuT/p0NIV4
+				k5jbGQYYpblIqpu8oZ6A0nlGAufJ/aGmRk8NeaaILFcB|
+			)
+			(checksum "9180C2D8C133E7F089AA5E43F4962E04")
+		)
+	)
 )
