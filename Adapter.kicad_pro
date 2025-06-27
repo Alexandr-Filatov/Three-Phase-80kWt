@@ -511,7 +511,9 @@
     "net_colors": {
       "+15V": "rgb(0, 255, 0)",
       "+5V": "rgb(255, 0, 0)",
-      "GND": "rgb(132, 132, 132)"
+      "+5VA": "rgb(0, 0, 194)",
+      "GND": "rgb(132, 132, 132)",
+      "GNDA": "rgb(0, 132, 132)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
