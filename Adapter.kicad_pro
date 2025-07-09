@@ -664,62 +664,6 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
-    ],
-    [
-      "c04386e0-b49e-4fff-b380-675af13a62cb",
-      "Fault1"
-    ],
-    [
-      "7c11a07f-525c-45a7-9ad1-361ea90615cc",
-      "Logic_Pritection"
-    ],
-    [
-      "67ea8833-ced1-4081-a899-15fa07aad06e",
-      "Current_Sensors"
-    ],
-    [
-      "d144a014-f04c-4a5c-ab89-4d35bea7c7d6",
-      "Logic_Protection2"
-    ],
-    [
-      "db5d7e63-27d7-4aee-825c-495c36afbd19",
-      "Logic_Protection3"
-    ],
-    [
-      "bd631d25-c4d3-4dfd-857d-5758a7c83797",
-      "NTC_Handler"
-    ],
-    [
-      "48506f31-24d2-459a-84b5-2cde043f3b1b",
-      "SupplyPower_5V"
-    ],
-    [
-      "98be4b32-51d8-4f7b-9b74-14890e40923b",
-      "Connectors"
-    ],
-    [
-      "24ca47b2-866f-4c90-ba1b-98c358d573e6",
-      "Driver_1"
-    ],
-    [
-      "7be86f5d-dd1f-4f1b-8cd0-4746349973df",
-      "Driver_2"
-    ],
-    [
-      "4f6bfb91-7e0a-4b8d-9918-082ff107cb6c",
-      "Driver_3"
-    ],
-    [
-      "8bc24c89-3b12-490f-84ca-49e9e82b282d",
-      "Power_Supply_1"
-    ],
-    [
-      "d15de62d-a72f-4a11-bc27-e846a6167c42",
-      "Power_Supply_2"
-    ],
-    [
-      "3f2b9816-0353-4471-8753-8626d6dd2b30",
-      "Power_Supply_3"
     ]
   ],
   "text_variables": {}
