@@ -6,7 +6,6 @@
 	(paper "A1")
 	(title_block
 		(title "Плата драйверов модуля фазных обмоток")
-		(company "ООО \"Электротранспортные технологии\"")
 		(comment 1 "НВЦТ.EVP150-2-1.2000.120 Э3")
 		(comment 2 "Филатов А.С.")
 		(comment 3 "Сизякин А.В.")
@@ -5860,6 +5859,16 @@
 		)
 		(uuid "68ea18d2-d9cc-4d19-b1ca-0aff6db36469")
 	)
+	(text "ООО \"Электротранспортные"
+		(exclude_from_sim no)
+		(at 811.276 579.628 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "6ec3cf99-8d95-4bba-aab4-148620da2a51")
+	)
 	(text "Драйвер верхнего ключа фазы А"
 		(exclude_from_sim no)
 		(at 98.044 131.826 0)
@@ -5959,6 +5968,16 @@
 			)
 		)
 		(uuid "c8703a66-06c2-4457-8ee0-0cf987b17393")
+	)
+	(text "технологии\""
+		(exclude_from_sim no)
+		(at 811.276 584.2 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "cfa13929-9b26-4f2a-bcca-b22b267a64ec")
 	)
 	(text "Схема электрическая принципиальная"
 		(exclude_from_sim no)
@@ -27858,10 +27877,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f184639c-12d7-4661-a8c4-139986dfaf3a")
+			(uuid "f184639c-12d7-4661-a8c4-139986dfaf3b")
 		)
 		(pin "2"
-			(uuid "6999b4fa-2554-4f88-a114-67cfd1a2d13a")
+			(uuid "6999b4fa-2554-4f88-a114-67cfd1a2d13b")
 		)
 		(instances
 			(project "Adapter"
@@ -31947,10 +31966,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bfa445ac-246e-4db8-a60c-beb85501bf65")
+			(uuid "bfa445ac-246e-4db8-a60c-beb85501bf66")
 		)
 		(pin "2"
-			(uuid "c3b2e23c-8699-44ed-8837-d92d75420e84")
+			(uuid "c3b2e23c-8699-44ed-8837-d92d75420e85")
 		)
 		(instances
 			(project "Adapter"
@@ -32614,10 +32633,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6eea4de7-227d-40d6-acc1-1620ef137fa5")
+			(uuid "6eea4de7-227d-40d6-acc1-1620ef137fa6")
 		)
 		(pin "2"
-			(uuid "3c1859dc-33d6-48ca-97a8-d652f7b04c48")
+			(uuid "3c1859dc-33d6-48ca-97a8-d652f7b04c49")
 		)
 		(instances
 			(project "Adapter"
@@ -35777,7 +35796,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8389195b-356a-44c3-a2e9-7820117d6596")
+			(uuid "8389195b-356a-44c3-a2e9-7820117d6597")
 		)
 		(instances
 			(project "Adapter"
@@ -35841,10 +35860,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "86d3c04c-25af-4555-95bf-649521c0b9be")
+			(uuid "86d3c04c-25af-4555-95bf-649521c0b9bf")
 		)
 		(pin "2"
-			(uuid "b44df995-6b44-4470-b1e7-839b3b9d06bd")
+			(uuid "b44df995-6b44-4470-b1e7-839b3b9d06be")
 		)
 		(instances
 			(project "Adapter"
@@ -38730,7 +38749,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8389195b-356a-44c3-a2e9-7820117d6596")
+			(uuid "8389195b-356a-44c3-a2e9-7820117d6598")
 		)
 		(instances
 			(project "Adapter"
@@ -40503,10 +40522,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c79db56-ad3d-42b9-b371-90b0967edd70")
+			(uuid "5c79db56-ad3d-42b9-b371-90b0967edd71")
 		)
 		(pin "2"
-			(uuid "0712d78b-cb2c-4203-af63-c9b8323491e9")
+			(uuid "0712d78b-cb2c-4203-af63-c9b8323491ea")
 		)
 		(instances
 			(project "Adapter"
@@ -41044,10 +41063,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c79db56-ad3d-42b9-b371-90b0967edd70")
+			(uuid "5c79db56-ad3d-42b9-b371-90b0967edd72")
 		)
 		(pin "2"
-			(uuid "0712d78b-cb2c-4203-af63-c9b8323491e9")
+			(uuid "0712d78b-cb2c-4203-af63-c9b8323491eb")
 		)
 		(instances
 			(project "Adapter"
@@ -41311,10 +41330,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a362f0e0-8a84-4fad-9647-c823b2db680f")
+			(uuid "a362f0e0-8a84-4fad-9647-c823b2db6810")
 		)
 		(pin "2"
-			(uuid "bd823c67-b456-4e9f-8ec9-14fb8b2ce4a9")
+			(uuid "bd823c67-b456-4e9f-8ec9-14fb8b2ce4aa")
 		)
 		(instances
 			(project "Adapter"
@@ -42054,10 +42073,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "48d62789-113b-4c97-a41f-a974983be06b")
+			(uuid "48d62789-113b-4c97-a41f-a974983be06c")
 		)
 		(pin "2"
-			(uuid "bf860b0e-8008-4eeb-817d-aeeb57d186eb")
+			(uuid "bf860b0e-8008-4eeb-817d-aeeb57d186ec")
 		)
 		(instances
 			(project "Adapter"
@@ -42524,10 +42543,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "48d62789-113b-4c97-a41f-a974983be06b")
+			(uuid "48d62789-113b-4c97-a41f-a974983be06d")
 		)
 		(pin "2"
-			(uuid "bf860b0e-8008-4eeb-817d-aeeb57d186eb")
+			(uuid "bf860b0e-8008-4eeb-817d-aeeb57d186ed")
 		)
 		(instances
 			(project "Adapter"
@@ -44368,7 +44387,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54b7405f-88db-41af-a8e9-82d894fabec5")
+			(uuid "54b7405f-88db-41af-a8e9-82d894fabec6")
 		)
 		(instances
 			(project "Adapter"
@@ -44635,10 +44654,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f184639c-12d7-4661-a8c4-139986dfaf3a")
+			(uuid "f184639c-12d7-4661-a8c4-139986dfaf3c")
 		)
 		(pin "2"
-			(uuid "6999b4fa-2554-4f88-a114-67cfd1a2d13a")
+			(uuid "6999b4fa-2554-4f88-a114-67cfd1a2d13c")
 		)
 		(instances
 			(project "Adapter"
@@ -46241,10 +46260,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a3f9037-f8ab-4c3f-ac7e-8096ebf1654a")
+			(uuid "3a3f9037-f8ab-4c3f-ac7e-8096ebf1654b")
 		)
 		(pin "2"
-			(uuid "4bc982a1-16d4-4cc0-b64c-2db3f69db5c7")
+			(uuid "4bc982a1-16d4-4cc0-b64c-2db3f69db5c8")
 		)
 		(instances
 			(project "Adapter"
@@ -46673,10 +46692,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6ebdeb1-8356-41f8-aef5-a882f96ea707")
+			(uuid "f6ebdeb1-8356-41f8-aef5-a882f96ea708")
 		)
 		(pin "2"
-			(uuid "d29d1402-74c0-44e5-81b1-acc664eb96bd")
+			(uuid "d29d1402-74c0-44e5-81b1-acc664eb96be")
 		)
 		(instances
 			(project "Adapter"
@@ -47156,7 +47175,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54b7405f-88db-41af-a8e9-82d894fabec5")
+			(uuid "54b7405f-88db-41af-a8e9-82d894fabec7")
 		)
 		(instances
 			(project "Adapter"
@@ -47223,10 +47242,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "daf121ec-2c00-4e96-96aa-2bc6f7a0fed5")
+			(uuid "daf121ec-2c00-4e96-96aa-2bc6f7a0fed6")
 		)
 		(pin "2"
-			(uuid "070365ef-242a-4d41-bc0a-b8ed9b91feca")
+			(uuid "070365ef-242a-4d41-bc0a-b8ed9b91fecb")
 		)
 		(instances
 			(project "Adapter"
@@ -48845,10 +48864,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a362f0e0-8a84-4fad-9647-c823b2db680f")
+			(uuid "a362f0e0-8a84-4fad-9647-c823b2db6811")
 		)
 		(pin "2"
-			(uuid "bd823c67-b456-4e9f-8ec9-14fb8b2ce4a9")
+			(uuid "bd823c67-b456-4e9f-8ec9-14fb8b2ce4ab")
 		)
 		(instances
 			(project "Adapter"
@@ -50046,10 +50065,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6ebdeb1-8356-41f8-aef5-a882f96ea707")
+			(uuid "f6ebdeb1-8356-41f8-aef5-a882f96ea709")
 		)
 		(pin "2"
-			(uuid "d29d1402-74c0-44e5-81b1-acc664eb96bd")
+			(uuid "d29d1402-74c0-44e5-81b1-acc664eb96bf")
 		)
 		(instances
 			(project "Adapter"
@@ -51042,10 +51061,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "21792e87-7a3e-440b-91e0-fb1e08f2f0ea")
+			(uuid "21792e87-7a3e-440b-91e0-fb1e08f2f0eb")
 		)
 		(pin "2"
-			(uuid "2bcef6ab-349b-4b2d-949e-d48ed58c62d8")
+			(uuid "2bcef6ab-349b-4b2d-949e-d48ed58c62d9")
 		)
 		(instances
 			(project "Adapter"
@@ -51178,10 +51197,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6eea4de7-227d-40d6-acc1-1620ef137fa5")
+			(uuid "6eea4de7-227d-40d6-acc1-1620ef137fa7")
 		)
 		(pin "2"
-			(uuid "3c1859dc-33d6-48ca-97a8-d652f7b04c48")
+			(uuid "3c1859dc-33d6-48ca-97a8-d652f7b04c4a")
 		)
 		(instances
 			(project "Adapter"
@@ -51388,10 +51407,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d06fe529-a442-4ff7-a730-cd9a2739e88b")
+			(uuid "d06fe529-a442-4ff7-a730-cd9a2739e88c")
 		)
 		(pin "2"
-			(uuid "443c67f8-aac7-4956-816f-0d0e688bd6e5")
+			(uuid "443c67f8-aac7-4956-816f-0d0e688bd6e6")
 		)
 		(instances
 			(project "Adapter"
@@ -52368,10 +52387,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "86d3c04c-25af-4555-95bf-649521c0b9be")
+			(uuid "86d3c04c-25af-4555-95bf-649521c0b9c0")
 		)
 		(pin "2"
-			(uuid "b44df995-6b44-4470-b1e7-839b3b9d06bd")
+			(uuid "b44df995-6b44-4470-b1e7-839b3b9d06bf")
 		)
 		(instances
 			(project "Adapter"
@@ -52502,10 +52521,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a3f9037-f8ab-4c3f-ac7e-8096ebf1654a")
+			(uuid "3a3f9037-f8ab-4c3f-ac7e-8096ebf1654c")
 		)
 		(pin "2"
-			(uuid "4bc982a1-16d4-4cc0-b64c-2db3f69db5c7")
+			(uuid "4bc982a1-16d4-4cc0-b64c-2db3f69db5c9")
 		)
 		(instances
 			(project "Adapter"
@@ -53337,10 +53356,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bfa445ac-246e-4db8-a60c-beb85501bf65")
+			(uuid "bfa445ac-246e-4db8-a60c-beb85501bf67")
 		)
 		(pin "2"
-			(uuid "c3b2e23c-8699-44ed-8837-d92d75420e84")
+			(uuid "c3b2e23c-8699-44ed-8837-d92d75420e86")
 		)
 		(instances
 			(project "Adapter"
@@ -54013,10 +54032,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa0ba9c9-5b53-4724-96d5-068c1f54dc13")
+			(uuid "fa0ba9c9-5b53-4724-96d5-068c1f54dc14")
 		)
 		(pin "2"
-			(uuid "5d82c14a-ad31-4a09-95fd-94d6651b7a76")
+			(uuid "5d82c14a-ad31-4a09-95fd-94d6651b7a77")
 		)
 		(instances
 			(project "Adapter"
@@ -54905,10 +54924,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "21792e87-7a3e-440b-91e0-fb1e08f2f0ea")
+			(uuid "21792e87-7a3e-440b-91e0-fb1e08f2f0ec")
 		)
 		(pin "2"
-			(uuid "2bcef6ab-349b-4b2d-949e-d48ed58c62d8")
+			(uuid "2bcef6ab-349b-4b2d-949e-d48ed58c62da")
 		)
 		(instances
 			(project "Adapter"
@@ -55749,10 +55768,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c54eec57-39ef-41e4-bbaf-4eee6a3ff4b2")
+			(uuid "c54eec57-39ef-41e4-bbaf-4eee6a3ff4b3")
 		)
 		(pin "2"
-			(uuid "1576d8d0-12c8-4054-834f-2c4176251961")
+			(uuid "1576d8d0-12c8-4054-834f-2c4176251962")
 		)
 		(instances
 			(project "Adapter"
