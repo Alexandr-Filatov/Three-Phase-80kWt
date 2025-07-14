@@ -5979,6 +5979,16 @@
 		)
 		(uuid "cfa13929-9b26-4f2a-bcca-b22b267a64ec")
 	)
+	(text "1. Перечень элементов см. НВЦТ.EVP150-2-1.2000.120 ПЭ3."
+		(exclude_from_sim no)
+		(at 710.946 513.08 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "d8b8ff17-2fac-4ccf-885c-7e22fdf57f02")
+	)
 	(text "Схема электрическая принципиальная"
 		(exclude_from_sim no)
 		(at 751.078 568.452 0)
