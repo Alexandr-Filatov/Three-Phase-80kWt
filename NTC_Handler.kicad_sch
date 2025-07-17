@@ -7844,6 +7844,7 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Mornsun_my:B_LS-1WR3"
@@ -7865,6 +7866,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 81.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "DCDC"
+			(at 81.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "B1505LS-1WR3  "
 			(at 81.28 147.32 0)
 			(effects
 				(font
@@ -11989,6 +12008,24 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 63.5 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Inductor SMD"
+			(at 63.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "MLZ2012M6R8WT000 "
+			(at 63.5 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
