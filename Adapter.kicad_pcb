@@ -43681,7 +43681,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D models/Starpower GD820HTX75P6HB.STEP"
-			(hide yes)
 			(offset
 				(xyz 51 -41 -17)
 			)
