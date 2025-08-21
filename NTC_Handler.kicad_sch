@@ -4008,7 +4008,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 66.04 146.05 90)
+		(at 66.04 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4017,7 +4017,7 @@
 		(fields_autoplaced yes)
 		(uuid "05dafff0-dd67-48da-a18d-e47e4215c390")
 		(property "Reference" "#PWR0126"
-			(at 69.85 146.05 0)
+			(at 69.85 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4026,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 62.23 146.05 90)
+			(at 62.23 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +4035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 146.05 0)
+			(at 66.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +4044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 146.05 0)
+			(at 66.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 66.04 146.05 0)
+			(at 66.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5312,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 184.023 172.72 0)
 			(effects
 				(font
@@ -5791,7 +5791,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 66.04 151.13 270)
+		(at 66.04 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5800,7 +5800,7 @@
 		(fields_autoplaced yes)
 		(uuid "3373f7f3-d01d-412f-b832-05d83402079a")
 		(property "Reference" "#PWR0125"
-			(at 59.69 151.13 0)
+			(at 59.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +5809,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 62.23 151.13 90)
+			(at 62.23 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +5818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 151.13 0)
+			(at 66.04 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 151.13 0)
+			(at 66.04 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +5836,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 66.04 151.13 0)
+			(at 66.04 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6068,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "10k"
 			(at 174.625 158.75 90)
 			(effects
 				(font
@@ -7057,7 +7057,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "10k"
 			(at 173.99 223.52 90)
 			(effects
 				(font
@@ -7638,7 +7638,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "10k"
 			(at 175.26 69.85 90)
 			(effects
 				(font
@@ -7737,7 +7737,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "10k"
 			(at 174.625 147.32 90)
 			(effects
 				(font
@@ -8198,7 +8198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 184.658 97.79 0)
 			(effects
 				(font
@@ -8565,7 +8565,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "10k"
 			(at 175.26 81.28 90)
 			(effects
 				(font
@@ -8730,7 +8730,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "10k"
 			(at 173.99 236.22 90)
 			(effects
 				(font
@@ -12428,7 +12428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 185.928 251.46 0)
 			(effects
 				(font

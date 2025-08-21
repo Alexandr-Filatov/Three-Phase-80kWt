@@ -3592,7 +3592,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 169.672 50.8 90)
 			(effects
 				(font
@@ -4326,7 +4326,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 169.672 132.08 90)
 			(effects
 				(font
@@ -5410,7 +5410,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 169.672 53.34 90)
 			(effects
 				(font
@@ -7137,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "6.8"
 			(at 169.672 134.62 90)
 			(effects
 				(font
