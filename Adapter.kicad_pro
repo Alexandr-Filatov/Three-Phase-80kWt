@@ -523,7 +523,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Docs/",
+      "plot": "Docs/FAB/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "3D models/Adapter.step",

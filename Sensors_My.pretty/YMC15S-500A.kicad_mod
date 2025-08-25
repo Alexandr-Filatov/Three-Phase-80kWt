@@ -1,7 +1,7 @@
 (footprint "YMC15S-500A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -17.986 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "06b6cd47-07ca-4d86-a5a4-427acd9d6dc7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -15.748 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ec9f330e-2709-4fd8-829d-226f6acc87f0")
 		(effects
 			(font
 				(size 1 1)
@@ -74,9 +61,31 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f8805aaf-0f16-48a8-b80f-3b37620aa734")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -14)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3cff4c4d-f958-4e2f-9318-d8b514d5ee26")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "009b6b53-5678-4362-ad8f-2a8eeadcd117")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -14.986 0)
@@ -155,6 +164,7 @@
 		(remove_unused_layers no)
 		(uuid "78f2618e-a95e-409f-8631-33c4f018d570")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D models/Current sensor low.STEP"
 		(offset
 			(xyz 661.15 253.65 0)

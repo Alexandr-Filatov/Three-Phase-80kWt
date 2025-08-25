@@ -1304,7 +1304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50+V"
 			(at 171.45 130.81 0)
 			(effects
 				(font
@@ -1720,7 +1720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 135.89 127 0)
 			(effects
 				(font
@@ -1821,7 +1821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50+V"
 			(at 171.45 81.28 0)
 			(effects
 				(font
@@ -2024,7 +2024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50+V"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -2321,7 +2321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 128.27 85.09 0)
 			(effects
 				(font
@@ -2422,7 +2422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 135.89 85.09 0)
 			(effects
 				(font
@@ -2736,7 +2736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50+V"
 			(at 171.45 123.19 0)
 			(effects
 				(font
@@ -2903,7 +2903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 128.27 127 0)
 			(effects
 				(font

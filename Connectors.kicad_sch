@@ -3589,7 +3589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 157.48 60.96 0)
 			(effects
 				(font
@@ -3688,7 +3688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 146.05 130.175 0)
 			(effects
 				(font
@@ -3853,7 +3853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -4191,7 +4191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 157.48 90.17 0)
 			(effects
 				(font
@@ -4857,7 +4857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 146.05 71.12 0)
 			(effects
 				(font
@@ -5088,7 +5088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 157.48 120.015 0)
 			(effects
 				(font
@@ -5363,7 +5363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "IGBT_Module"
 			(at 100.33 99.06 0)
 			(effects
 				(font

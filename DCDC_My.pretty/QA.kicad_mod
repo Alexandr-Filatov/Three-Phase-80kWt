@@ -14,9 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "QA"
-		(at -0.02433 5.88747 0)
+	(property "Value" "${REFERENCE}"
+		(at 0 0 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ce119b23-6cf7-4282-910d-63d604d901b7")
 		(effects
 			(font
@@ -89,6 +90,17 @@
 		(layer "F.SilkS")
 		(uuid "cfbd8ebd-d98f-41e7-96c6-725bd8db0470")
 	)
+	(fp_rect
+		(start -10 -5.25)
+		(end 10 5.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5daa1e1b-b6fd-4b04-9a43-f61b7ee7b9dd")
+	)
 	(fp_text user "0V"
 		(at 4.45 -3.137585 0)
 		(unlocked yes)
@@ -152,6 +164,18 @@
 				(thickness 0.1016)
 			)
 			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52458f60-e84f-48d9-819b-5f3bb2d61a24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(pad "1" thru_hole oval

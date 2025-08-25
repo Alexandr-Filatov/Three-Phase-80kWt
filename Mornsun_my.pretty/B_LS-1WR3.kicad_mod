@@ -17,6 +17,7 @@
 	(property "Value" "B_LS-1WR3"
 		(at 1.275 6.35 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "0f5889b1-8ad7-4629-9eb8-8b825d246e99")
 		(effects
 			(font
@@ -89,6 +90,17 @@
 		(layer "F.SilkS")
 		(uuid "e6fba6b6-6a4e-441d-a2b7-a4b04c390a3e")
 	)
+	(fp_rect
+		(start -9.25 -1.75)
+		(end 11.75 5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "709830aa-de18-414e-9dde-8389bb012e66")
+	)
 	(fp_text user "GND"
 		(at -4.494 2.257345 0)
 		(unlocked yes)
@@ -152,6 +164,18 @@
 				(thickness 0.1016)
 			)
 			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "785fb129-17e5-4761-830c-8f24f611dc01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(pad "1" thru_hole oval

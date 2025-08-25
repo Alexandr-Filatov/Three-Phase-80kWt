@@ -3191,7 +3191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 181.61 162.56 0)
 			(effects
 				(font
@@ -3290,7 +3290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 153.67 152.4 0)
 			(effects
 				(font
@@ -3457,7 +3457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 105.918 60.706 0)
 			(effects
 				(font
@@ -3556,7 +3556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 153.67 149.86 0)
 			(effects
 				(font
@@ -3657,7 +3657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 105.918 147.066 0)
 			(effects
 				(font
@@ -3822,7 +3822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 175.26 162.56 0)
 			(effects
 				(font
@@ -3988,7 +3988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 175.26 59.69 0)
 			(effects
 				(font
@@ -4087,7 +4087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 153.67 66.04 0)
 			(effects
 				(font
@@ -4317,7 +4317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 170.18 135.89 0)
 			(effects
 				(font
@@ -4416,7 +4416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 175.26 76.2 0)
 			(effects
 				(font
@@ -4789,7 +4789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 181.483 76.073 0)
 			(effects
 				(font
@@ -5055,7 +5055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 175.895 49.53 0)
 			(effects
 				(font
@@ -5285,7 +5285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 153.67 142.24 0)
 			(effects
 				(font
@@ -5487,7 +5487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 101.6 142.24 0)
 			(effects
 				(font
@@ -5654,7 +5654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 175.26 146.05 0)
 			(effects
 				(font
@@ -5874,7 +5874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 153.67 58.42 0)
 			(effects
 				(font
@@ -6039,7 +6039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 153.67 63.5 0)
 			(effects
 				(font
@@ -6203,7 +6203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 153.67 144.78 0)
 			(effects
 				(font
@@ -6407,7 +6407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 170.18 49.53 0)
 			(effects
 				(font
@@ -6506,7 +6506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 101.6 55.88 0)
 			(effects
 				(font
@@ -6671,7 +6671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 175.895 135.89 0)
 			(effects
 				(font
@@ -6772,7 +6772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 96.266 149.606 0)
 			(effects
 				(font
@@ -6873,7 +6873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 25+V"
 			(at 96.266 63.246 0)
 			(effects
 				(font
@@ -6972,7 +6972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 153.67 55.88 0)
 			(effects
 				(font

@@ -1,0 +1,6 @@
+Layers: 6
+Thickness： 2mm
+Copper Thickness： 1oz
+Surface Treatment： HSAL LF
+Solder Maske： Black Mate
+Text Color： White
