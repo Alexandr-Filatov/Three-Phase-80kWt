@@ -526,7 +526,7 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "3D models/Adapter.step",
+      "step": "3D models/Adapter_pcb.step",
       "svg": "",
       "vrml": ""
     },
