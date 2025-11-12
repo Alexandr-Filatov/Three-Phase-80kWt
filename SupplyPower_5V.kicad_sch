@@ -7,6 +7,7 @@
 	(title_block
 		(date "2025-06-04")
 		(company "ООО \"ЭТТ\"")
+		(comment 1 "НВЦТ.EVP150-2-1.2000.120_v1 Э3")
 	)
 	(lib_symbols
 		(symbol "DCDC_My:K78xxM-1000R3"
@@ -1134,6 +1135,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Product Name" ""
@@ -1365,6 +1367,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Product Name" ""
@@ -1634,6 +1637,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Product Name" ""

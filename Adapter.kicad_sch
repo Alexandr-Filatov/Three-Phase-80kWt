@@ -5,13 +5,74 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A3")
 	(title_block
-		(title "Трехфазные драйвера")
 		(date "2025-06-04")
-		(company "ООО \"ЭТТ\"")
+		(comment 1 "НВЦТ.EVP150-2-1.2000.120_v1 Э3")
 		(comment 2 "Филатов А.С.")
 		(comment 3 "Сизякин А.В.")
+		(comment 4 "Коваленко.В.А.")
+		(comment 6 "Теленков А.П.")
 	)
 	(lib_symbols)
+	(text "НВЦТ.EVP150-2-1.2000.120_v1"
+		(exclude_from_sim no)
+		(at 16.51 35.56 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "3038de30-8cda-493c-b511-db8edd771ca5")
+	)
+	(text "1. Перечень элементов см. НВЦТ.EVP150-2-1.2000.120_v1 ПЭ3."
+		(exclude_from_sim no)
+		(at 281.432 207.264 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "47847df2-13c7-40eb-8b85-563fb656e10d")
+	)
+	(text "технологии\""
+		(exclude_from_sim no)
+		(at 390.906 286.766 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "875cfbc7-8553-4e37-8383-53af43443393")
+	)
+	(text "ООО \"Электротранспортные"
+		(exclude_from_sim no)
+		(at 389.636 282.702 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "88f63d67-54fc-4d0c-ab0c-c21cf55745fa")
+	)
+	(text "Схема электрическая принципиальная"
+		(exclude_from_sim no)
+		(at 330.454 271.272 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "d2de036a-e195-4d82-beb5-a7b7c2a6f410")
+	)
+	(text "Плата драйверов модуля фазных обмоток"
+		(exclude_from_sim no)
+		(at 330.962 264.922 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "ff0efa73-fa96-4130-a56d-06eebb1e7243")
+	)
 	(sheet
 		(at 25.4 53.34)
 		(size 28.194 22.606)
@@ -635,6 +696,35 @@
 				k5jbGQYYpblIqpu8oZ6A0nlGAufJ/aGmRk8NeaaILFcB|
 			)
 			(checksum "9180C2D8C133E7F089AA5E43F4962E04")
+		)
+		(file
+			(name "gost_portrait.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WC4IM0nAHbqgjFQdTow6/sNILIV1TIw5zlbg/WJMHlF251w3xY6sje8JsLAtpQyyZRKCsq/
+				EmGGgl4DfQBlAHsAvaONk2HUVr50M0HNcN3MsIIB/nRmqIJ0W+eQTWqrbWabxmnwrNvmpduGhqit
+				MpQzDwY4s/OzyailnLl9NEq1BpBGqeohOthGVXIzrLNtPgz0YXqq78ottxDUAZuYGeahqrd6JwUW
+				oqJJqQVJ0BmidgECqIQ22ngYZmcDogKPL3cZ+d2Tcp23ZxrVMvfMDnmdcwcFPMped7nL6B7k73+8
+				I9fr3iO7t2vff9wi5/qSDuM/dH9+7u3L59El7H/s7tit+1/XV8t/vC7CjwIris4vuuj+PfJkGm+m
+				YRSk0W2f3Mf9AWxRqh7RtyGpvx/zvnuMvNdj0smiowXWsWM5qTipVBiO5ssEEy/JUk1MNb4FN5se
+				0eZDLUu48c2vkk6lquGunXRDtS2uWyfVparUUk2pGbW3SbPJ2dEDRkMSEVb7vgWfN6SBEgY4Y7XU
+				i9NKfammWooxyCwVTdpAY2R2AQABlX/kfuztXr/FHSFfTLcoL37r4uV4H0JH8Fi+uN+v0L0TIro7
+				zbQHauVL0Lz3RtDwSjbQPOcLmm15qSUX6UQie+Ti2CWRCFNCuh/kRWeP/bhNdVVgQL6dS0WpLVUF
+				pm7FCaWCvKviRDq5rFTr45ImFeMtGAOBZqgxTalmRJKCpJBhDVGVwBiCmTs7kkAQgjAYQkEcCWIU
+				RFKEKGIIIYQICFHIiJRYO61rAUQ7x+JKGr+IwUgx597QihTG9sWKdeD8KXK0c8VAoma9oCjCMpNB
+				3WiwzwzRt9Bj0pJNf+U2rIYVvomGJkTROrgfqiu5I9YFMgC0gLGuYKO9DqX2aNWWAgZ+GIbl6p2t
+				TQ3qmpxXzXaNf8mD1sEbs+PjnV7IAx+3nLsDFdE7FWcOkVO93DkiijLLTRgdFt1WXBnEDCgpIOow
+				TkehtGrKUgtvcG/QMRQcARw2EVRecM2fx79PY1AHVkzh8wUCcUGI+3mVL6fU9HFHr5NvmGIeJ+ut
+				Q+ZGimF5xjkDNkNeTulEczyWf38ZauM/mTe3ZXjh4GyPcKrBTEVfrRP3AKbd8L2F4YIIAAGMspx2
+				6OxW/zCr9nSI/u5hWdQb1NjExbKDJWWtIQMU11bD3YIRBFxj32kNfuV/HhInKVZ746/3avhEHhiu
+				EturMBRkAsFjLM671UIqKTEf7QfQjYG8dpJtwhUn+qou1NPzKVlhZ+YcpAIkr3TuXG4nOyAcluUv
+				25ZSlkRfwywSaigsWhPn8aJ6ePLSH4kdPH9D/Sz2cEETLR3OvO77gAj4FHZAXlYPWBpgvNpikOLB
+				VAIChSE9wV/3VI6T3ugI+HkgRgnk1ah0Uq7H78lrsrjN7+1j+NjTlP5kFoHueseWhlzPw1uHzhwF
+				sE8Ub87r/mOKKkrVfz55SX9um0mitoeFCgkRV+fPP/NsBIoHHkMLj1YnLLXzkT5nyEpBXE2tCmPZ
+				joyrEqTNYmrhF5bkN7m0miNeQmgetIsG13HsZQjo5eqy4TODonxAp6cWHTBgMuJ1VStPFRnRMJG6
+				2k3V7/45DO9j6WL+KgYD4wM9zutfNtn7hHyN1E8BN0KF64tcysA8pCzjFZz7bVzPtm6AdnnOwUE6
+				GARzhJZzdcgbwiqQD3wkzZ/2DwJqHrgiNBRF5Co=|
+			)
+			(checksum "12F393F2C62B1E595502842B90E2D6BB")
 		)
 	)
 )
